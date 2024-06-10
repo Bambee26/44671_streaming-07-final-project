@@ -1,5 +1,6 @@
 import pika
 import csv
+import time
 from collections import defaultdict
 
 # Configure Logging
@@ -75,6 +76,9 @@ def main(host: str = "localhost", input_file: str = "nutrition-summary.csv", que
             # Construct message
             message = f"Date: {date}, Protein: {protein}, Carbohydrates: {carbohydrates}, Fat: {fat}, Sodium: {sodium}, Fiber: {fiber}"
             send_message(channel, queue_name, message)
+
+            # Introduce a delay of 3 seconds
+            time.sleep(.5)
 
         # Close connection
         connection.close()
