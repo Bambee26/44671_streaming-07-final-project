@@ -1,3 +1,7 @@
+"""44671 Streaming Data Final Project
+    Bambee Garfield
+    June 13th, 2024 """
+
 import pika
 import sys
 import csv
@@ -7,7 +11,7 @@ from collections import deque
 from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
-# Initialize deques for processing nutritional data
+# Initialize deques for processing nutrition data
 protein_data = deque(maxlen=1)
 carbohydrates_data = deque(maxlen=1)
 fat_data = deque(maxlen=1)
@@ -31,7 +35,6 @@ def create_and_declare_queue(channel, queue_name):
 
 def process_message(channel, method, properties, body, output_writer):
     """Process message received from the queue."""
-    # Parse message
     try:
         data = body.decode().split(', ')
         date = data[0].split(': ')[1]
@@ -47,21 +50,21 @@ def process_message(channel, method, properties, body, output_writer):
     sodium_data.append(nutrients['Sodium'])
     fiber_data.append(nutrients['Fiber'])
 
-    # Calculate total calories
-    total_calories = nutrients['Protein'] * 4 + nutrients['Carbohydrates'] * 4 + nutrients['Fat'] * 9
+    # Calculate total calories and round to one decimal point
+    total_calories = round(nutrients['Protein'] * 4 + nutrients['Carbohydrates'] * 4 + nutrients['Fat'] * 9, 1)
 
-    # Check nutrient levels
+    # Check macronutrient and calorie totals
     if nutrients['Protein'] < 120:
-        logger.warning(f"Alert! Total protein for {date} is below 120g: {nutrients['Protein']}g")
-    if nutrients['Carbohydrates'] > 500:
-        logger.warning(f"Alert! Total carbohydrates for {date} are above 500g: {nutrients['Carbohydrates']}g")
+        logger.warning(f"Alert! Total protein for {date} is below 120g at {nutrients['Protein']}g")
+    if nutrients['Carbohydrates'] > 450:
+        logger.warning(f"Alert! Total carbohydrates for {date} are above 450g at {nutrients['Carbohydrates']}g")
     if nutrients['Fat'] > 75:
-        logger.warning(f"Alert! Total fat for {date} is above 75g: {nutrients['Fat']}g")
+        logger.warning(f"Alert! Total fat for {date} is above 75g at {nutrients['Fat']}g")
     if total_calories > 3000:
-        logger.warning(f"Alert! Total calories for {date} are over 3000: {total_calories}")
+        logger.warning(f"Alert! Total calories for {date} are over 3000 at {total_calories}")
 
     # Write to output file with rounded values
-    output_writer.writerow([date, '', round(protein_data[-1], 1), round(carbohydrates_data[-1], 1), round(fat_data[-1], 1), round(total_calories, 1), '', '', round(sodium_data[-1], 1), round(fiber_data[-1], 1)])
+    output_writer.writerow([date, '', round(protein_data[-1], 1), round(carbohydrates_data[-1], 1), round(fat_data[-1], 1), total_calories, '', '', round(sodium_data[-1], 1), round(fiber_data[-1], 1)])
 
 def callback(channel, method, properties, body, output_writer):
     """Callback function to process received messages."""

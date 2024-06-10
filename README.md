@@ -1,35 +1,52 @@
 ## Bambee Garfield
-## CSIS 44671 - Module 6
+## CSIS 44671 - Module 7
 
 
-# streaming-06-smart-smoker-consumer
+# streaming-07-final
 
 Project Requirements:
-Smart Smoker System
--Read about the Smart Smoker system here: Smart Smoker
--We read one value every half minute. (sleep_secs = 30)
+Requirements - Custom Streaming Project
+Be sure to address these in your project:
 
-smoker-temps.csv has 4 columns:
-[0] Time = Date-time stamp for the sensor reading
-[1] Channel1 = Smoker Temp --> send to message queue "01-smoker"
-[2] Channe2 = Food A Temp --> send to message queue "02-food-A"
-[3] Channe3 = Food B Temp --> send to message queue "02-food-B"
+1. Create a custom GitHub project repo to showcase your skills.
+2. Describe and plan an new implementation using RabbitMQ for streaming data. 
+3. Create one or more custom producers.
+4. Create one or more custom consumers.
+5. You can simulate your initial data source using Faker or some other file - or read from an API (not too much, too often, or too fast!)
+6. How did you explore exchanges and queues?
+7. Did you use time windows?
 
-We want know if:
--The smoker temperature decreases by more than 15 degrees F in 2.5 minutes (smoker alert!)
--Any food temperature changes less than 1 degree F in 10 minutes (food stall!)
+My Project:
+Data was downloaded from my personal myfitnesspal.com log. The data is clunky and hard to use in their format. Each meal per day has it's own line with numerous columns of macro and micro nutrients. 
 
-Time Windows
--Smoker time window is 2.5 minutes
--Food time window is 10 minutes
-
-Deque Max Length
--At one reading every 1/2 minute, the smoker deque max length is 5 (2.5 min * 1 reading/0.5 min)
--At one reading every 1/2 minute, the food deque max length is 20 (10 min * 1 reading/0.5 min) 
+The first thing the code does is to aggregate the data for each day and then only look at the columns I care about:
+    -Protein (g)
+    -Carbohydrates (g)
+    -Fats (g)
+    -Sodium (mg)
+    -Fiber (g)
+    -Calculate total calories based on 4 cal/g on both protein and carbs, 9 cal/g on fat
 
 Conditions To monitor
--If smoker temp decreases by 15 F or more in 2.5 min (or 5 readings)  --> smoker alert!
--If food temp change in temp is 1 F or less in 10 min (or 20 readings)  --> food stall alert!
+-Certain macronutrients are too high or too low on any given day:
+    -Protein <120g
+    -Carbohydrates >450g
+    -Fats > 75g
+    -Total calories >3000
+-Create alerts for each of these
+
+Create a usable output file
+Columns for output file are as follows:
+-Date
+-Weight (not used in this file)
+-Protein (g)
+-Carbohydrates (g)
+-Fats (g)
+-Total calories
+-Water (not used in this file)
+-Caffeine (not used in this file)
+-Sodium (mg)
+-Fiber (g)
 
 Requirements
 -RabbitMQ server running
@@ -37,12 +54,13 @@ Requirements
 
 ## Before You Begin 
 
-1. In GitHub, create a new repo for your project - name it streaming-06-smart-smoker-consumer
-2. Add a README.md during the creation process. (If not, you can always add it later.)
+1. In GitHub, create a new repo for your project - name it streaming-07-final
+2. Add a README.md during the creation process.
 3. Clone your repo down to your machine. 
-4. In VS Code, add a .gitignore (use one from an earlier module), start working on the README.md. Create it if you didn't earlier.
-5. Add the csv data file to your repo. 
-6. Create a file for your bbq producer.
+4. In VS Code, add a .gitignore (use one from an earlier module).
+5. Download data file from myfitnesspal.com for last 18 months
+6. Add the csv data file to your repo. 
+
 
 ## Create a Python Virtual Environment
 
@@ -57,10 +75,12 @@ In the same VS Code terminal window, activate the virtual environment.
 
 - On Windows, run: `.venv\Scripts\activate`
 
-## Create and implement the Consumer 
+## Create a Producer
 
-1. Implement your smoker consumer. 
-2. Use the logic, approach, and structure from Module 5
+## Creat a Consumer 
+
+1. Implement your  consumer. 
+2. Use the logic, approach, and structure from all course modules
 3. These provide a current and solid foundation for streaming analytics - modifying them to serve your purpose IS part of the assignment.
 4. Do not start from scratch - do not search for code - do not use a notebook.
 5. Use comments in the code and repo to explain your work. 
@@ -68,29 +88,34 @@ In the same VS Code terminal window, activate the virtual environment.
 7. Explain your project in the README. Include prerequisites and how to run your code. 
 
 ## Run consumer and producer
- 1. Open a CMD prompt as an administrator
- 2. Change directories to the folder where your project is housed
- 3. Run python smoker_producer.py in command prompt
- 4. In VS Code, run smoker_consumer.py
+ 1. Open a CMD prompt as an administrator 
+    -Change directories to the folder where your project is housed
+ 2. Or open a 2nd terminal window in VS code
+ 3. Run python nutrition_producer.py in command prompt/VS Code terminal
+ 4. Run nutrition_consumer.py in VS Code terminal
 
 ## Reference
 
-- [RabbitMQ Tutorial - Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
+- [My Fitness Pal export](https://www.myfitnesspal.com/reports/printable-diary/bambeeg)
 
 
 ## Screenshot
 
 Show a example of your project here with:
 1. Producer
-2. Smoker monitor
-3. Food A monitor (Roast)
-4. Food B monitor (Ribs)
-![alt text](image-1.png)
+2. Consumer
+![alt text](image-3.png)
 
 Show significant events:
-1. Visible smoker alert with timestamp
-![alt text](<Screenshot 2024-06-06 150518.png>)
-2. Visible Food A (roast) with timestamp
+1. Visible protein alert w
+![alt text](image-1.png)
+2. Visible carbohydrate alert
+![alt text](image-5.png)
+3. Visible fat alert
 ![alt text](image-2.png)
-3. Visible Food B (ribs) with timestamp
-![alt text](<Screenshot 2024-06-06 150710.png>)
+4. Visible total calories alert
+![alt text](image-4.png)
+
+Show output
+1. Output file
+![alt text](image-6.png)

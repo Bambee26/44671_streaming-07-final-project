@@ -1,3 +1,7 @@
+"""44671 Streaming Data Final Project
+    Bambee Garfield
+    June 13th, 2024 """
+
 import pika
 import csv
 import time
