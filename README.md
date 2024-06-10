@@ -93,7 +93,7 @@ Show a example of your project here with:
 ![alt text](image-3.png)
 
 Show significant events:
-1. Visible protein alert w
+1. Visible protein alert
 ![alt text](image-1.png)
 2. Visible carbohydrate alert
 ![alt text](image-5.png)
