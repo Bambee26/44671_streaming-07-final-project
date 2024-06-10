@@ -1,0 +1,1210 @@
+2024-06-10 11:21:36,489.nutrition_producer.INFO ==================================================
+2024-06-10 11:21:36,489.nutrition_producer.INFO Today is 2024-06-10 at 11:21 AM
+2024-06-10 11:21:36,489.nutrition_producer.INFO Running on: nt Windows 10
+2024-06-10 11:21:36,490.nutrition_producer.INFO Python version:  3.11.9
+2024-06-10 11:21:36,490.nutrition_producer.INFO Python path: C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0
+2024-06-10 11:21:36,490.nutrition_producer.INFO Working dir: C:\Users\bambe\OneDrive\Documents\NMSU\44671_StreamingData\Module_7\44671_streaming-07-final-project
+2024-06-10 11:21:36,490.nutrition_producer.INFO ==================================================
+2024-06-10 11:21:36,524.nutrition_producer.INFO Queue 'Protein (g)' declared.
+2024-06-10 11:21:36,542.nutrition_producer.INFO Queue 'Fat (g)' declared.
+2024-06-10 11:21:36,558.nutrition_producer.INFO Queue 'Carbohydrates (g)' declared.
+2024-06-10 11:21:36,572.nutrition_producer.INFO Queue 'Sodium (mg)' declared.
+2024-06-10 11:21:36,588.nutrition_producer.INFO Queue 'Fiber' declared.
+2024-06-10 11:21:36,607.nutrition_producer.INFO  [x] Sent 'Date: 1/1/2023, Protein (g): 187.7' to queue 'Protein (g)'.
+2024-06-10 11:21:36,615.nutrition_producer.INFO  [x] Sent 'Date: 1/1/2023, Fat (g): 62.7' to queue 'Fat (g)'.
+2024-06-10 11:21:36,625.nutrition_producer.INFO  [x] Sent 'Date: 1/1/2023, Carbohydrates (g): 304.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,630.nutrition_producer.INFO  [x] Sent 'Date: 1/1/2023, Sodium (mg): 2673.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,641.nutrition_producer.INFO  [x] Sent 'Date: 1/1/2023, Fiber: 35.9' to queue 'Fiber'.
+2024-06-10 11:21:36,661.nutrition_producer.INFO  [x] Sent 'Date: 1/2/2023, Protein (g): 180.5' to queue 'Protein (g)'.
+2024-06-10 11:21:36,669.nutrition_producer.INFO  [x] Sent 'Date: 1/2/2023, Fat (g): 64.1' to queue 'Fat (g)'.
+2024-06-10 11:21:36,674.nutrition_producer.INFO  [x] Sent 'Date: 1/2/2023, Carbohydrates (g): 324.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,679.nutrition_producer.INFO  [x] Sent 'Date: 1/2/2023, Sodium (mg): 1589.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,686.nutrition_producer.INFO  [x] Sent 'Date: 1/2/2023, Fiber: 34.7' to queue 'Fiber'.
+2024-06-10 11:21:36,691.nutrition_producer.INFO  [x] Sent 'Date: 1/3/2023, Protein (g): 180.9' to queue 'Protein (g)'.
+2024-06-10 11:21:36,697.nutrition_producer.INFO  [x] Sent 'Date: 1/3/2023, Fat (g): 65.2' to queue 'Fat (g)'.
+2024-06-10 11:21:36,708.nutrition_producer.INFO  [x] Sent 'Date: 1/3/2023, Carbohydrates (g): 320.70000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,714.nutrition_producer.INFO  [x] Sent 'Date: 1/3/2023, Sodium (mg): 2093.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,726.nutrition_producer.INFO  [x] Sent 'Date: 1/3/2023, Fiber: 30.4' to queue 'Fiber'.
+2024-06-10 11:21:36,734.nutrition_producer.INFO  [x] Sent 'Date: 1/4/2023, Protein (g): 182.0' to queue 'Protein (g)'.
+2024-06-10 11:21:36,741.nutrition_producer.INFO  [x] Sent 'Date: 1/4/2023, Fat (g): 67.69999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:36,746.nutrition_producer.INFO  [x] Sent 'Date: 1/4/2023, Carbohydrates (g): 314.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,754.nutrition_producer.INFO  [x] Sent 'Date: 1/4/2023, Sodium (mg): 3299.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,761.nutrition_producer.INFO  [x] Sent 'Date: 1/4/2023, Fiber: 30.3' to queue 'Fiber'.
+2024-06-10 11:21:36,769.nutrition_producer.INFO  [x] Sent 'Date: 1/5/2023, Protein (g): 183.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:36,774.nutrition_producer.INFO  [x] Sent 'Date: 1/5/2023, Fat (g): 68.39999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:36,779.nutrition_producer.INFO  [x] Sent 'Date: 1/5/2023, Carbohydrates (g): 343.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,788.nutrition_producer.INFO  [x] Sent 'Date: 1/5/2023, Sodium (mg): 3102.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,794.nutrition_producer.INFO  [x] Sent 'Date: 1/5/2023, Fiber: 31.799999999999997' to queue 'Fiber'.
+2024-06-10 11:21:36,804.nutrition_producer.INFO  [x] Sent 'Date: 1/6/2023, Protein (g): 125.69999999999999' to queue 'Protein (g)'.
+2024-06-10 11:21:36,811.nutrition_producer.INFO  [x] Sent 'Date: 1/6/2023, Fat (g): 53.900000000000006' to queue 'Fat (g)'.
+2024-06-10 11:21:36,818.nutrition_producer.INFO  [x] Sent 'Date: 1/6/2023, Carbohydrates (g): 226.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,823.nutrition_producer.INFO  [x] Sent 'Date: 1/6/2023, Sodium (mg): 1983.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,829.nutrition_producer.INFO  [x] Sent 'Date: 1/6/2023, Fiber: 24.2' to queue 'Fiber'.
+2024-06-10 11:21:36,838.nutrition_producer.INFO  [x] Sent 'Date: 1/7/2023, Protein (g): 182.89999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:36,843.nutrition_producer.INFO  [x] Sent 'Date: 1/7/2023, Fat (g): 63.5' to queue 'Fat (g)'.
+2024-06-10 11:21:36,851.nutrition_producer.INFO  [x] Sent 'Date: 1/7/2023, Carbohydrates (g): 312.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,856.nutrition_producer.INFO  [x] Sent 'Date: 1/7/2023, Sodium (mg): 3153.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,863.nutrition_producer.INFO  [x] Sent 'Date: 1/7/2023, Fiber: 30.7' to queue 'Fiber'.
+2024-06-10 11:21:36,871.nutrition_producer.INFO  [x] Sent 'Date: 1/8/2023, Protein (g): 178.6' to queue 'Protein (g)'.
+2024-06-10 11:21:36,876.nutrition_producer.INFO  [x] Sent 'Date: 1/8/2023, Fat (g): 67.5' to queue 'Fat (g)'.
+2024-06-10 11:21:36,884.nutrition_producer.INFO  [x] Sent 'Date: 1/8/2023, Carbohydrates (g): 316.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,889.nutrition_producer.INFO  [x] Sent 'Date: 1/8/2023, Sodium (mg): 2453.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,894.nutrition_producer.INFO  [x] Sent 'Date: 1/8/2023, Fiber: 26.6' to queue 'Fiber'.
+2024-06-10 11:21:36,904.nutrition_producer.INFO  [x] Sent 'Date: 1/9/2023, Protein (g): 182.0' to queue 'Protein (g)'.
+2024-06-10 11:21:36,910.nutrition_producer.INFO  [x] Sent 'Date: 1/9/2023, Fat (g): 63.0' to queue 'Fat (g)'.
+2024-06-10 11:21:36,919.nutrition_producer.INFO  [x] Sent 'Date: 1/9/2023, Carbohydrates (g): 350.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,925.nutrition_producer.INFO  [x] Sent 'Date: 1/9/2023, Sodium (mg): 1786.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,929.nutrition_producer.INFO  [x] Sent 'Date: 1/9/2023, Fiber: 32.800000000000004' to queue 'Fiber'.
+2024-06-10 11:21:36,937.nutrition_producer.INFO  [x] Sent 'Date: 1/10/2023, Protein (g): 178.2' to queue 'Protein (g)'.
+2024-06-10 11:21:36,942.nutrition_producer.INFO  [x] Sent 'Date: 1/10/2023, Fat (g): 73.89999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:36,947.nutrition_producer.INFO  [x] Sent 'Date: 1/10/2023, Carbohydrates (g): 319.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:36,954.nutrition_producer.INFO  [x] Sent 'Date: 1/10/2023, Sodium (mg): 2909.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:36,988.nutrition_producer.INFO  [x] Sent 'Date: 1/10/2023, Fiber: 33.0' to queue 'Fiber'.
+2024-06-10 11:21:36,993.nutrition_producer.INFO  [x] Sent 'Date: 1/11/2023, Protein (g): 157.1' to queue 'Protein (g)'.
+2024-06-10 11:21:37,005.nutrition_producer.INFO  [x] Sent 'Date: 1/11/2023, Fat (g): 60.39999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:37,011.nutrition_producer.INFO  [x] Sent 'Date: 1/11/2023, Carbohydrates (g): 327.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,020.nutrition_producer.INFO  [x] Sent 'Date: 1/11/2023, Sodium (mg): 2819.7000000000003' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,025.nutrition_producer.INFO  [x] Sent 'Date: 1/11/2023, Fiber: 31.400000000000002' to queue 'Fiber'.
+2024-06-10 11:21:37,029.nutrition_producer.INFO  [x] Sent 'Date: 1/12/2023, Protein (g): 179.4' to queue 'Protein (g)'.
+2024-06-10 11:21:37,039.nutrition_producer.INFO  [x] Sent 'Date: 1/12/2023, Fat (g): 61.4' to queue 'Fat (g)'.
+2024-06-10 11:21:37,043.nutrition_producer.INFO  [x] Sent 'Date: 1/12/2023, Carbohydrates (g): 323.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,050.nutrition_producer.INFO  [x] Sent 'Date: 1/12/2023, Sodium (mg): 2709.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,056.nutrition_producer.INFO  [x] Sent 'Date: 1/12/2023, Fiber: 30.700000000000003' to queue 'Fiber'.
+2024-06-10 11:21:37,061.nutrition_producer.INFO  [x] Sent 'Date: 1/13/2023, Protein (g): 180.3' to queue 'Protein (g)'.
+2024-06-10 11:21:37,068.nutrition_producer.INFO  [x] Sent 'Date: 1/13/2023, Fat (g): 63.89999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:37,073.nutrition_producer.INFO  [x] Sent 'Date: 1/13/2023, Carbohydrates (g): 350.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,078.nutrition_producer.INFO  [x] Sent 'Date: 1/13/2023, Sodium (mg): 2502.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,085.nutrition_producer.INFO  [x] Sent 'Date: 1/13/2023, Fiber: 30.2' to queue 'Fiber'.
+2024-06-10 11:21:37,092.nutrition_producer.INFO  [x] Sent 'Date: 1/14/2023, Protein (g): 176.9' to queue 'Protein (g)'.
+2024-06-10 11:21:37,101.nutrition_producer.INFO  [x] Sent 'Date: 1/14/2023, Fat (g): 74.60000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:37,110.nutrition_producer.INFO  [x] Sent 'Date: 1/14/2023, Carbohydrates (g): 315.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,121.nutrition_producer.INFO  [x] Sent 'Date: 1/14/2023, Sodium (mg): 2596.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,126.nutrition_producer.INFO  [x] Sent 'Date: 1/14/2023, Fiber: 50.599999999999994' to queue 'Fiber'.
+2024-06-10 11:21:37,131.nutrition_producer.INFO  [x] Sent 'Date: 1/15/2023, Protein (g): 117.30000000000001' to queue 'Protein (g)'.
+2024-06-10 11:21:37,140.nutrition_producer.INFO  [x] Sent 'Date: 1/15/2023, Fat (g): 37.9' to queue 'Fat (g)'.
+2024-06-10 11:21:37,146.nutrition_producer.INFO  [x] Sent 'Date: 1/15/2023, Carbohydrates (g): 194.49999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,154.nutrition_producer.INFO  [x] Sent 'Date: 1/15/2023, Sodium (mg): 2236.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,158.nutrition_producer.INFO  [x] Sent 'Date: 1/15/2023, Fiber: 27.299999999999997' to queue 'Fiber'.
+2024-06-10 11:21:37,163.nutrition_producer.INFO  [x] Sent 'Date: 1/16/2023, Protein (g): 154.8' to queue 'Protein (g)'.
+2024-06-10 11:21:37,171.nutrition_producer.INFO  [x] Sent 'Date: 1/16/2023, Fat (g): 62.7' to queue 'Fat (g)'.
+2024-06-10 11:21:37,175.nutrition_producer.INFO  [x] Sent 'Date: 1/16/2023, Carbohydrates (g): 311.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,186.nutrition_producer.INFO  [x] Sent 'Date: 1/16/2023, Sodium (mg): 2249.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,192.nutrition_producer.INFO  [x] Sent 'Date: 1/16/2023, Fiber: 41.99999999999999' to queue 'Fiber'.
+2024-06-10 11:21:37,197.nutrition_producer.INFO  [x] Sent 'Date: 1/17/2023, Protein (g): 180.3' to queue 'Protein (g)'.
+2024-06-10 11:21:37,206.nutrition_producer.INFO  [x] Sent 'Date: 1/17/2023, Fat (g): 65.4' to queue 'Fat (g)'.
+2024-06-10 11:21:37,211.nutrition_producer.INFO  [x] Sent 'Date: 1/17/2023, Carbohydrates (g): 324.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,219.nutrition_producer.INFO  [x] Sent 'Date: 1/17/2023, Sodium (mg): 2369.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,224.nutrition_producer.INFO  [x] Sent 'Date: 1/17/2023, Fiber: 43.99999999999999' to queue 'Fiber'.
+2024-06-10 11:21:37,230.nutrition_producer.INFO  [x] Sent 'Date: 1/18/2023, Protein (g): 174.9' to queue 'Protein (g)'.
+2024-06-10 11:21:37,240.nutrition_producer.INFO  [x] Sent 'Date: 1/18/2023, Fat (g): 64.3' to queue 'Fat (g)'.
+2024-06-10 11:21:37,245.nutrition_producer.INFO  [x] Sent 'Date: 1/18/2023, Carbohydrates (g): 360.80000000000007' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,253.nutrition_producer.INFO  [x] Sent 'Date: 1/18/2023, Sodium (mg): 2880.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,261.nutrition_producer.INFO  [x] Sent 'Date: 1/18/2023, Fiber: 30.9' to queue 'Fiber'.
+2024-06-10 11:21:37,271.nutrition_producer.INFO  [x] Sent 'Date: 1/19/2023, Protein (g): 137.4' to queue 'Protein (g)'.
+2024-06-10 11:21:37,278.nutrition_producer.INFO  [x] Sent 'Date: 1/19/2023, Fat (g): 53.1' to queue 'Fat (g)'.
+2024-06-10 11:21:37,285.nutrition_producer.INFO  [x] Sent 'Date: 1/19/2023, Carbohydrates (g): 296.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,290.nutrition_producer.INFO  [x] Sent 'Date: 1/19/2023, Sodium (mg): 2174.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,295.nutrition_producer.INFO  [x] Sent 'Date: 1/19/2023, Fiber: 27.6' to queue 'Fiber'.
+2024-06-10 11:21:37,305.nutrition_producer.INFO  [x] Sent 'Date: 1/20/2023, Protein (g): 160.2' to queue 'Protein (g)'.
+2024-06-10 11:21:37,309.nutrition_producer.INFO  [x] Sent 'Date: 1/20/2023, Fat (g): 94.4' to queue 'Fat (g)'.
+2024-06-10 11:21:37,318.nutrition_producer.INFO  [x] Sent 'Date: 1/20/2023, Carbohydrates (g): 328.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,323.nutrition_producer.INFO  [x] Sent 'Date: 1/20/2023, Sodium (mg): 2747.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,327.nutrition_producer.INFO  [x] Sent 'Date: 1/20/2023, Fiber: 27.8' to queue 'Fiber'.
+2024-06-10 11:21:37,336.nutrition_producer.INFO  [x] Sent 'Date: 1/21/2023, Protein (g): 164.5' to queue 'Protein (g)'.
+2024-06-10 11:21:37,340.nutrition_producer.INFO  [x] Sent 'Date: 1/21/2023, Fat (g): 63.699999999999996' to queue 'Fat (g)'.
+2024-06-10 11:21:37,345.nutrition_producer.INFO  [x] Sent 'Date: 1/21/2023, Carbohydrates (g): 379.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,355.nutrition_producer.INFO  [x] Sent 'Date: 1/21/2023, Sodium (mg): 4771.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,362.nutrition_producer.INFO  [x] Sent 'Date: 1/21/2023, Fiber: 38.8' to queue 'Fiber'.
+2024-06-10 11:21:37,369.nutrition_producer.INFO  [x] Sent 'Date: 1/22/2023, Protein (g): 164.90000000000003' to queue 'Protein (g)'.
+2024-06-10 11:21:37,374.nutrition_producer.INFO  [x] Sent 'Date: 1/22/2023, Fat (g): 65.00000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:37,379.nutrition_producer.INFO  [x] Sent 'Date: 1/22/2023, Carbohydrates (g): 369.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,390.nutrition_producer.INFO  [x] Sent 'Date: 1/22/2023, Sodium (mg): 3824.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,397.nutrition_producer.INFO  [x] Sent 'Date: 1/22/2023, Fiber: 31.5' to queue 'Fiber'.
+2024-06-10 11:21:37,405.nutrition_producer.INFO  [x] Sent 'Date: 1/23/2023, Protein (g): 164.8' to queue 'Protein (g)'.
+2024-06-10 11:21:37,410.nutrition_producer.INFO  [x] Sent 'Date: 1/23/2023, Fat (g): 64.80000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:37,420.nutrition_producer.INFO  [x] Sent 'Date: 1/23/2023, Carbohydrates (g): 373.70000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,425.nutrition_producer.INFO  [x] Sent 'Date: 1/23/2023, Sodium (mg): 3795.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,429.nutrition_producer.INFO  [x] Sent 'Date: 1/23/2023, Fiber: 37.1' to queue 'Fiber'.
+2024-06-10 11:21:37,439.nutrition_producer.INFO  [x] Sent 'Date: 1/24/2023, Protein (g): 164.4' to queue 'Protein (g)'.
+2024-06-10 11:21:37,463.nutrition_producer.INFO  [x] Sent 'Date: 1/24/2023, Fat (g): 63.900000000000006' to queue 'Fat (g)'.
+2024-06-10 11:21:37,472.nutrition_producer.INFO  [x] Sent 'Date: 1/24/2023, Carbohydrates (g): 375.69999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,479.nutrition_producer.INFO  [x] Sent 'Date: 1/24/2023, Sodium (mg): 4094.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,490.nutrition_producer.INFO  [x] Sent 'Date: 1/24/2023, Fiber: 30.900000000000002' to queue 'Fiber'.
+2024-06-10 11:21:37,495.nutrition_producer.INFO  [x] Sent 'Date: 1/25/2023, Protein (g): 164.4' to queue 'Protein (g)'.
+2024-06-10 11:21:37,505.nutrition_producer.INFO  [x] Sent 'Date: 1/25/2023, Fat (g): 63.900000000000006' to queue 'Fat (g)'.
+2024-06-10 11:21:37,511.nutrition_producer.INFO  [x] Sent 'Date: 1/25/2023, Carbohydrates (g): 375.69999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,519.nutrition_producer.INFO  [x] Sent 'Date: 1/25/2023, Sodium (mg): 4094.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,524.nutrition_producer.INFO  [x] Sent 'Date: 1/25/2023, Fiber: 30.900000000000002' to queue 'Fiber'.
+2024-06-10 11:21:37,530.nutrition_producer.INFO  [x] Sent 'Date: 1/26/2023, Protein (g): 165.0' to queue 'Protein (g)'.
+2024-06-10 11:21:37,540.nutrition_producer.INFO  [x] Sent 'Date: 1/26/2023, Fat (g): 64.10000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:37,545.nutrition_producer.INFO  [x] Sent 'Date: 1/26/2023, Carbohydrates (g): 374.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,559.nutrition_producer.INFO  [x] Sent 'Date: 1/26/2023, Sodium (mg): 4596.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,566.nutrition_producer.INFO  [x] Sent 'Date: 1/26/2023, Fiber: 35.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:37,574.nutrition_producer.INFO  [x] Sent 'Date: 1/27/2023, Protein (g): 164.70000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:37,579.nutrition_producer.INFO  [x] Sent 'Date: 1/27/2023, Fat (g): 65.5' to queue 'Fat (g)'.
+2024-06-10 11:21:37,588.nutrition_producer.INFO  [x] Sent 'Date: 1/27/2023, Carbohydrates (g): 374.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,593.nutrition_producer.INFO  [x] Sent 'Date: 1/27/2023, Sodium (mg): 4120.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,601.nutrition_producer.INFO  [x] Sent 'Date: 1/27/2023, Fiber: 44.8' to queue 'Fiber'.
+2024-06-10 11:21:37,607.nutrition_producer.INFO  [x] Sent 'Date: 1/28/2023, Protein (g): 165.5' to queue 'Protein (g)'.
+2024-06-10 11:21:37,613.nutrition_producer.INFO  [x] Sent 'Date: 1/28/2023, Fat (g): 65.39999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:37,621.nutrition_producer.INFO  [x] Sent 'Date: 1/28/2023, Carbohydrates (g): 369.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,627.nutrition_producer.INFO  [x] Sent 'Date: 1/28/2023, Sodium (mg): 4682.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,638.nutrition_producer.INFO  [x] Sent 'Date: 1/28/2023, Fiber: 42.9' to queue 'Fiber'.
+2024-06-10 11:21:37,644.nutrition_producer.INFO  [x] Sent 'Date: 1/29/2023, Protein (g): 165.7' to queue 'Protein (g)'.
+2024-06-10 11:21:37,652.nutrition_producer.INFO  [x] Sent 'Date: 1/29/2023, Fat (g): 64.1' to queue 'Fat (g)'.
+2024-06-10 11:21:37,658.nutrition_producer.INFO  [x] Sent 'Date: 1/29/2023, Carbohydrates (g): 375.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,664.nutrition_producer.INFO  [x] Sent 'Date: 1/29/2023, Sodium (mg): 2152.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,673.nutrition_producer.INFO  [x] Sent 'Date: 1/29/2023, Fiber: 42.8' to queue 'Fiber'.
+2024-06-10 11:21:37,678.nutrition_producer.INFO  [x] Sent 'Date: 1/30/2023, Protein (g): 164.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:37,685.nutrition_producer.INFO  [x] Sent 'Date: 1/30/2023, Fat (g): 67.6' to queue 'Fat (g)'.
+2024-06-10 11:21:37,691.nutrition_producer.INFO  [x] Sent 'Date: 1/30/2023, Carbohydrates (g): 375.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,700.nutrition_producer.INFO  [x] Sent 'Date: 1/30/2023, Sodium (mg): 3604.1000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,708.nutrition_producer.INFO  [x] Sent 'Date: 1/30/2023, Fiber: 38.400000000000006' to queue 'Fiber'.
+2024-06-10 11:21:37,713.nutrition_producer.INFO  [x] Sent 'Date: 1/31/2023, Protein (g): 164.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:37,721.nutrition_producer.INFO  [x] Sent 'Date: 1/31/2023, Fat (g): 67.6' to queue 'Fat (g)'.
+2024-06-10 11:21:37,727.nutrition_producer.INFO  [x] Sent 'Date: 1/31/2023, Carbohydrates (g): 375.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,734.nutrition_producer.INFO  [x] Sent 'Date: 1/31/2023, Sodium (mg): 3604.1000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,739.nutrition_producer.INFO  [x] Sent 'Date: 1/31/2023, Fiber: 38.400000000000006' to queue 'Fiber'.
+2024-06-10 11:21:37,744.nutrition_producer.INFO  [x] Sent 'Date: 2/1/2023, Protein (g): 164.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:37,751.nutrition_producer.INFO  [x] Sent 'Date: 2/1/2023, Fat (g): 64.5' to queue 'Fat (g)'.
+2024-06-10 11:21:37,755.nutrition_producer.INFO  [x] Sent 'Date: 2/1/2023, Carbohydrates (g): 374.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,762.nutrition_producer.INFO  [x] Sent 'Date: 2/1/2023, Sodium (mg): 4175.299999999999' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,769.nutrition_producer.INFO  [x] Sent 'Date: 2/1/2023, Fiber: 36.3' to queue 'Fiber'.
+2024-06-10 11:21:37,774.nutrition_producer.INFO  [x] Sent 'Date: 2/2/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:37,779.nutrition_producer.INFO  [x] Sent 'Date: 2/2/2023, Fat (g): 67.1' to queue 'Fat (g)'.
+2024-06-10 11:21:37,785.nutrition_producer.INFO  [x] Sent 'Date: 2/2/2023, Carbohydrates (g): 393.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,791.nutrition_producer.INFO  [x] Sent 'Date: 2/2/2023, Sodium (mg): 4856.799999999999' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,796.nutrition_producer.INFO  [x] Sent 'Date: 2/2/2023, Fiber: 31.299999999999997' to queue 'Fiber'.
+2024-06-10 11:21:37,804.nutrition_producer.INFO  [x] Sent 'Date: 2/3/2023, Protein (g): 166.5' to queue 'Protein (g)'.
+2024-06-10 11:21:37,809.nutrition_producer.INFO  [x] Sent 'Date: 2/3/2023, Fat (g): 63.099999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:37,814.nutrition_producer.INFO  [x] Sent 'Date: 2/3/2023, Carbohydrates (g): 395.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,822.nutrition_producer.INFO  [x] Sent 'Date: 2/3/2023, Sodium (mg): 3759.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,827.nutrition_producer.INFO  [x] Sent 'Date: 2/3/2023, Fiber: 34.1' to queue 'Fiber'.
+2024-06-10 11:21:37,834.nutrition_producer.INFO  [x] Sent 'Date: 2/4/2023, Protein (g): 161.0' to queue 'Protein (g)'.
+2024-06-10 11:21:37,844.nutrition_producer.INFO  [x] Sent 'Date: 2/4/2023, Fat (g): 68.89999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:37,849.nutrition_producer.INFO  [x] Sent 'Date: 2/4/2023, Carbohydrates (g): 396.69999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,872.nutrition_producer.INFO  [x] Sent 'Date: 2/4/2023, Sodium (mg): 4620.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,878.nutrition_producer.INFO  [x] Sent 'Date: 2/4/2023, Fiber: 41.0' to queue 'Fiber'.
+2024-06-10 11:21:37,886.nutrition_producer.INFO  [x] Sent 'Date: 2/5/2023, Protein (g): 165.3' to queue 'Protein (g)'.
+2024-06-10 11:21:37,891.nutrition_producer.INFO  [x] Sent 'Date: 2/5/2023, Fat (g): 66.4' to queue 'Fat (g)'.
+2024-06-10 11:21:37,896.nutrition_producer.INFO  [x] Sent 'Date: 2/5/2023, Carbohydrates (g): 395.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,907.nutrition_producer.INFO  [x] Sent 'Date: 2/5/2023, Sodium (mg): 4395.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,913.nutrition_producer.INFO  [x] Sent 'Date: 2/5/2023, Fiber: 27.8' to queue 'Fiber'.
+2024-06-10 11:21:37,923.nutrition_producer.INFO  [x] Sent 'Date: 2/6/2023, Protein (g): 163.70000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:37,929.nutrition_producer.INFO  [x] Sent 'Date: 2/6/2023, Fat (g): 64.9' to queue 'Fat (g)'.
+2024-06-10 11:21:37,936.nutrition_producer.INFO  [x] Sent 'Date: 2/6/2023, Carbohydrates (g): 394.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,941.nutrition_producer.INFO  [x] Sent 'Date: 2/6/2023, Sodium (mg): 3889.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,946.nutrition_producer.INFO  [x] Sent 'Date: 2/6/2023, Fiber: 35.0' to queue 'Fiber'.
+2024-06-10 11:21:37,954.nutrition_producer.INFO  [x] Sent 'Date: 2/7/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:37,959.nutrition_producer.INFO  [x] Sent 'Date: 2/7/2023, Fat (g): 65.5' to queue 'Fat (g)'.
+2024-06-10 11:21:37,963.nutrition_producer.INFO  [x] Sent 'Date: 2/7/2023, Carbohydrates (g): 395.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:37,972.nutrition_producer.INFO  [x] Sent 'Date: 2/7/2023, Sodium (mg): 3575.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:37,988.nutrition_producer.INFO  [x] Sent 'Date: 2/7/2023, Fiber: 33.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:37,998.nutrition_producer.INFO  [x] Sent 'Date: 2/8/2023, Protein (g): 160.3' to queue 'Protein (g)'.
+2024-06-10 11:21:38,009.nutrition_producer.INFO  [x] Sent 'Date: 2/8/2023, Fat (g): 66.69999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:38,020.nutrition_producer.INFO  [x] Sent 'Date: 2/8/2023, Carbohydrates (g): 394.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,027.nutrition_producer.INFO  [x] Sent 'Date: 2/8/2023, Sodium (mg): 4453.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,035.nutrition_producer.INFO  [x] Sent 'Date: 2/8/2023, Fiber: 32.5' to queue 'Fiber'.
+2024-06-10 11:21:38,040.nutrition_producer.INFO  [x] Sent 'Date: 2/9/2023, Protein (g): 145.1' to queue 'Protein (g)'.
+2024-06-10 11:21:38,045.nutrition_producer.INFO  [x] Sent 'Date: 2/9/2023, Fat (g): 70.19999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:38,055.nutrition_producer.INFO  [x] Sent 'Date: 2/9/2023, Carbohydrates (g): 403.99999999999994' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,060.nutrition_producer.INFO  [x] Sent 'Date: 2/9/2023, Sodium (mg): 3825.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,072.nutrition_producer.INFO  [x] Sent 'Date: 2/9/2023, Fiber: 46.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:38,078.nutrition_producer.INFO  [x] Sent 'Date: 2/10/2023, Protein (g): 153.70000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:38,086.nutrition_producer.INFO  [x] Sent 'Date: 2/10/2023, Fat (g): 66.4' to queue 'Fat (g)'.
+2024-06-10 11:21:38,091.nutrition_producer.INFO  [x] Sent 'Date: 2/10/2023, Carbohydrates (g): 382.09999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,097.nutrition_producer.INFO  [x] Sent 'Date: 2/10/2023, Sodium (mg): 4330.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,112.nutrition_producer.INFO  [x] Sent 'Date: 2/10/2023, Fiber: 28.900000000000002' to queue 'Fiber'.
+2024-06-10 11:21:38,123.nutrition_producer.INFO  [x] Sent 'Date: 2/11/2023, Protein (g): 123.60000000000001' to queue 'Protein (g)'.
+2024-06-10 11:21:38,129.nutrition_producer.INFO  [x] Sent 'Date: 2/11/2023, Fat (g): 31.4' to queue 'Fat (g)'.
+2024-06-10 11:21:38,137.nutrition_producer.INFO  [x] Sent 'Date: 2/11/2023, Carbohydrates (g): 266.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,142.nutrition_producer.INFO  [x] Sent 'Date: 2/11/2023, Sodium (mg): 2652.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,150.nutrition_producer.INFO  [x] Sent 'Date: 2/11/2023, Fiber: 34.0' to queue 'Fiber'.
+2024-06-10 11:21:38,180.nutrition_producer.INFO  [x] Sent 'Date: 2/12/2023, Protein (g): 163.70000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:38,191.nutrition_producer.INFO  [x] Sent 'Date: 2/12/2023, Fat (g): 65.8' to queue 'Fat (g)'.
+2024-06-10 11:21:38,201.nutrition_producer.INFO  [x] Sent 'Date: 2/12/2023, Carbohydrates (g): 395.40000000000003' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,208.nutrition_producer.INFO  [x] Sent 'Date: 2/12/2023, Sodium (mg): 4062.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,213.nutrition_producer.INFO  [x] Sent 'Date: 2/12/2023, Fiber: 28.4' to queue 'Fiber'.
+2024-06-10 11:21:38,222.nutrition_producer.INFO  [x] Sent 'Date: 2/13/2023, Protein (g): 163.9' to queue 'Protein (g)'.
+2024-06-10 11:21:38,241.nutrition_producer.INFO  [x] Sent 'Date: 2/13/2023, Fat (g): 64.39999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:38,247.nutrition_producer.INFO  [x] Sent 'Date: 2/13/2023, Carbohydrates (g): 394.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,256.nutrition_producer.INFO  [x] Sent 'Date: 2/13/2023, Sodium (mg): 5063.599999999999' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,261.nutrition_producer.INFO  [x] Sent 'Date: 2/13/2023, Fiber: 44.39999999999999' to queue 'Fiber'.
+2024-06-10 11:21:38,272.nutrition_producer.INFO  [x] Sent 'Date: 2/14/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:38,278.nutrition_producer.INFO  [x] Sent 'Date: 2/14/2023, Fat (g): 60.5' to queue 'Fat (g)'.
+2024-06-10 11:21:38,287.nutrition_producer.INFO  [x] Sent 'Date: 2/14/2023, Carbohydrates (g): 396.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,293.nutrition_producer.INFO  [x] Sent 'Date: 2/14/2023, Sodium (mg): 4913.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,297.nutrition_producer.INFO  [x] Sent 'Date: 2/14/2023, Fiber: 47.49999999999999' to queue 'Fiber'.
+2024-06-10 11:21:38,307.nutrition_producer.INFO  [x] Sent 'Date: 2/15/2023, Protein (g): 165.9' to queue 'Protein (g)'.
+2024-06-10 11:21:38,333.nutrition_producer.INFO  [x] Sent 'Date: 2/15/2023, Fat (g): 65.6' to queue 'Fat (g)'.
+2024-06-10 11:21:38,341.nutrition_producer.INFO  [x] Sent 'Date: 2/15/2023, Carbohydrates (g): 391.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,347.nutrition_producer.INFO  [x] Sent 'Date: 2/15/2023, Sodium (mg): 3935.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,357.nutrition_producer.INFO  [x] Sent 'Date: 2/15/2023, Fiber: 30.5' to queue 'Fiber'.
+2024-06-10 11:21:38,362.nutrition_producer.INFO  [x] Sent 'Date: 2/16/2023, Protein (g): 165.3' to queue 'Protein (g)'.
+2024-06-10 11:21:38,371.nutrition_producer.INFO  [x] Sent 'Date: 2/16/2023, Fat (g): 66.6' to queue 'Fat (g)'.
+2024-06-10 11:21:38,377.nutrition_producer.INFO  [x] Sent 'Date: 2/16/2023, Carbohydrates (g): 396.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,385.nutrition_producer.INFO  [x] Sent 'Date: 2/16/2023, Sodium (mg): 4395.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,391.nutrition_producer.INFO  [x] Sent 'Date: 2/16/2023, Fiber: 34.7' to queue 'Fiber'.
+2024-06-10 11:21:38,395.nutrition_producer.INFO  [x] Sent 'Date: 2/17/2023, Protein (g): 164.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:38,403.nutrition_producer.INFO  [x] Sent 'Date: 2/17/2023, Fat (g): 64.19999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:38,411.nutrition_producer.INFO  [x] Sent 'Date: 2/17/2023, Carbohydrates (g): 412.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,421.nutrition_producer.INFO  [x] Sent 'Date: 2/17/2023, Sodium (mg): 3645.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,425.nutrition_producer.INFO  [x] Sent 'Date: 2/17/2023, Fiber: 33.800000000000004' to queue 'Fiber'.
+2024-06-10 11:21:38,433.nutrition_producer.INFO  [x] Sent 'Date: 2/18/2023, Protein (g): 165.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:38,441.nutrition_producer.INFO  [x] Sent 'Date: 2/18/2023, Fat (g): 64.8' to queue 'Fat (g)'.
+2024-06-10 11:21:38,446.nutrition_producer.INFO  [x] Sent 'Date: 2/18/2023, Carbohydrates (g): 403.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,454.nutrition_producer.INFO  [x] Sent 'Date: 2/18/2023, Sodium (mg): 5335.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,459.nutrition_producer.INFO  [x] Sent 'Date: 2/18/2023, Fiber: 55.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:38,463.nutrition_producer.INFO  [x] Sent 'Date: 2/19/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:38,472.nutrition_producer.INFO  [x] Sent 'Date: 2/19/2023, Fat (g): 65.3' to queue 'Fat (g)'.
+2024-06-10 11:21:38,477.nutrition_producer.INFO  [x] Sent 'Date: 2/19/2023, Carbohydrates (g): 409.50000000000006' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,485.nutrition_producer.INFO  [x] Sent 'Date: 2/19/2023, Sodium (mg): 4915.299999999999' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,491.nutrition_producer.INFO  [x] Sent 'Date: 2/19/2023, Fiber: 24.7' to queue 'Fiber'.
+2024-06-10 11:21:38,496.nutrition_producer.INFO  [x] Sent 'Date: 2/20/2023, Protein (g): 164.0' to queue 'Protein (g)'.
+2024-06-10 11:21:38,504.nutrition_producer.INFO  [x] Sent 'Date: 2/20/2023, Fat (g): 65.7' to queue 'Fat (g)'.
+2024-06-10 11:21:38,510.nutrition_producer.INFO  [x] Sent 'Date: 2/20/2023, Carbohydrates (g): 411.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,515.nutrition_producer.INFO  [x] Sent 'Date: 2/20/2023, Sodium (mg): 5258.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,523.nutrition_producer.INFO  [x] Sent 'Date: 2/20/2023, Fiber: 40.400000000000006' to queue 'Fiber'.
+2024-06-10 11:21:38,527.nutrition_producer.INFO  [x] Sent 'Date: 2/21/2023, Protein (g): 166.0' to queue 'Protein (g)'.
+2024-06-10 11:21:38,537.nutrition_producer.INFO  [x] Sent 'Date: 2/21/2023, Fat (g): 68.9' to queue 'Fat (g)'.
+2024-06-10 11:21:38,541.nutrition_producer.INFO  [x] Sent 'Date: 2/21/2023, Carbohydrates (g): 405.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,547.nutrition_producer.INFO  [x] Sent 'Date: 2/21/2023, Sodium (mg): 3312.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,556.nutrition_producer.INFO  [x] Sent 'Date: 2/21/2023, Fiber: 48.7' to queue 'Fiber'.
+2024-06-10 11:21:38,561.nutrition_producer.INFO  [x] Sent 'Date: 2/22/2023, Protein (g): 163.9' to queue 'Protein (g)'.
+2024-06-10 11:21:38,569.nutrition_producer.INFO  [x] Sent 'Date: 2/22/2023, Fat (g): 69.5' to queue 'Fat (g)'.
+2024-06-10 11:21:38,574.nutrition_producer.INFO  [x] Sent 'Date: 2/22/2023, Carbohydrates (g): 409.40000000000003' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,580.nutrition_producer.INFO  [x] Sent 'Date: 2/22/2023, Sodium (mg): 3390.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,589.nutrition_producer.INFO  [x] Sent 'Date: 2/22/2023, Fiber: 50.4' to queue 'Fiber'.
+2024-06-10 11:21:38,595.nutrition_producer.INFO  [x] Sent 'Date: 2/23/2023, Protein (g): 164.8' to queue 'Protein (g)'.
+2024-06-10 11:21:38,603.nutrition_producer.INFO  [x] Sent 'Date: 2/23/2023, Fat (g): 67.3' to queue 'Fat (g)'.
+2024-06-10 11:21:38,610.nutrition_producer.INFO  [x] Sent 'Date: 2/23/2023, Carbohydrates (g): 409.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,619.nutrition_producer.INFO  [x] Sent 'Date: 2/23/2023, Sodium (mg): 3511.2999999999997' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,624.nutrition_producer.INFO  [x] Sent 'Date: 2/23/2023, Fiber: 48.699999999999996' to queue 'Fiber'.
+2024-06-10 11:21:38,629.nutrition_producer.INFO  [x] Sent 'Date: 2/24/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:38,637.nutrition_producer.INFO  [x] Sent 'Date: 2/24/2023, Fat (g): 66.5' to queue 'Fat (g)'.
+2024-06-10 11:21:38,643.nutrition_producer.INFO  [x] Sent 'Date: 2/24/2023, Carbohydrates (g): 410.20000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,652.nutrition_producer.INFO  [x] Sent 'Date: 2/24/2023, Sodium (mg): 4453.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,657.nutrition_producer.INFO  [x] Sent 'Date: 2/24/2023, Fiber: 37.7' to queue 'Fiber'.
+2024-06-10 11:21:38,662.nutrition_producer.INFO  [x] Sent 'Date: 2/25/2023, Protein (g): 165.0' to queue 'Protein (g)'.
+2024-06-10 11:21:38,670.nutrition_producer.INFO  [x] Sent 'Date: 2/25/2023, Fat (g): 65.6' to queue 'Fat (g)'.
+2024-06-10 11:21:38,675.nutrition_producer.INFO  [x] Sent 'Date: 2/25/2023, Carbohydrates (g): 410.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,689.nutrition_producer.INFO  [x] Sent 'Date: 2/25/2023, Sodium (mg): 4158.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,694.nutrition_producer.INFO  [x] Sent 'Date: 2/25/2023, Fiber: 47.300000000000004' to queue 'Fiber'.
+2024-06-10 11:21:38,704.nutrition_producer.INFO  [x] Sent 'Date: 2/26/2023, Protein (g): 164.59999999999997' to queue 'Protein (g)'.
+2024-06-10 11:21:38,709.nutrition_producer.INFO  [x] Sent 'Date: 2/26/2023, Fat (g): 66.10000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:38,713.nutrition_producer.INFO  [x] Sent 'Date: 2/26/2023, Carbohydrates (g): 411.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,723.nutrition_producer.INFO  [x] Sent 'Date: 2/26/2023, Sodium (mg): 4486.200000000001' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,728.nutrition_producer.INFO  [x] Sent 'Date: 2/26/2023, Fiber: 46.0' to queue 'Fiber'.
+2024-06-10 11:21:38,735.nutrition_producer.INFO  [x] Sent 'Date: 2/27/2023, Protein (g): 165.2' to queue 'Protein (g)'.
+2024-06-10 11:21:38,741.nutrition_producer.INFO  [x] Sent 'Date: 2/27/2023, Fat (g): 65.8' to queue 'Fat (g)'.
+2024-06-10 11:21:38,745.nutrition_producer.INFO  [x] Sent 'Date: 2/27/2023, Carbohydrates (g): 413.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,755.nutrition_producer.INFO  [x] Sent 'Date: 2/27/2023, Sodium (mg): 4142.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,760.nutrition_producer.INFO  [x] Sent 'Date: 2/27/2023, Fiber: 40.8' to queue 'Fiber'.
+2024-06-10 11:21:38,767.nutrition_producer.INFO  [x] Sent 'Date: 2/28/2023, Protein (g): 163.70000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:38,776.nutrition_producer.INFO  [x] Sent 'Date: 2/28/2023, Fat (g): 86.8' to queue 'Fat (g)'.
+2024-06-10 11:21:38,781.nutrition_producer.INFO  [x] Sent 'Date: 2/28/2023, Carbohydrates (g): 422.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,789.nutrition_producer.INFO  [x] Sent 'Date: 2/28/2023, Sodium (mg): 4769.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,794.nutrition_producer.INFO  [x] Sent 'Date: 2/28/2023, Fiber: 35.7' to queue 'Fiber'.
+2024-06-10 11:21:38,802.nutrition_producer.INFO  [x] Sent 'Date: 3/1/2023, Protein (g): 165.5' to queue 'Protein (g)'.
+2024-06-10 11:21:38,808.nutrition_producer.INFO  [x] Sent 'Date: 3/1/2023, Fat (g): 65.3' to queue 'Fat (g)'.
+2024-06-10 11:21:38,813.nutrition_producer.INFO  [x] Sent 'Date: 3/1/2023, Carbohydrates (g): 334.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,821.nutrition_producer.INFO  [x] Sent 'Date: 3/1/2023, Sodium (mg): 4071.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,827.nutrition_producer.INFO  [x] Sent 'Date: 3/1/2023, Fiber: 31.700000000000003' to queue 'Fiber'.
+2024-06-10 11:21:38,837.nutrition_producer.INFO  [x] Sent 'Date: 3/2/2023, Protein (g): 164.8' to queue 'Protein (g)'.
+2024-06-10 11:21:38,842.nutrition_producer.INFO  [x] Sent 'Date: 3/2/2023, Fat (g): 64.8' to queue 'Fat (g)'.
+2024-06-10 11:21:38,847.nutrition_producer.INFO  [x] Sent 'Date: 3/2/2023, Carbohydrates (g): 410.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,856.nutrition_producer.INFO  [x] Sent 'Date: 3/2/2023, Sodium (mg): 4258.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,863.nutrition_producer.INFO  [x] Sent 'Date: 3/2/2023, Fiber: 35.7' to queue 'Fiber'.
+2024-06-10 11:21:38,870.nutrition_producer.INFO  [x] Sent 'Date: 3/3/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:38,876.nutrition_producer.INFO  [x] Sent 'Date: 3/3/2023, Fat (g): 66.8' to queue 'Fat (g)'.
+2024-06-10 11:21:38,884.nutrition_producer.INFO  [x] Sent 'Date: 3/3/2023, Carbohydrates (g): 410.09999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,889.nutrition_producer.INFO  [x] Sent 'Date: 3/3/2023, Sodium (mg): 4011.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,894.nutrition_producer.INFO  [x] Sent 'Date: 3/3/2023, Fiber: 28.700000000000003' to queue 'Fiber'.
+2024-06-10 11:21:38,900.nutrition_producer.INFO  [x] Sent 'Date: 3/4/2023, Protein (g): 166.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:38,907.nutrition_producer.INFO  [x] Sent 'Date: 3/4/2023, Fat (g): 73.2' to queue 'Fat (g)'.
+2024-06-10 11:21:38,913.nutrition_producer.INFO  [x] Sent 'Date: 3/4/2023, Carbohydrates (g): 410.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,920.nutrition_producer.INFO  [x] Sent 'Date: 3/4/2023, Sodium (mg): 4379.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,926.nutrition_producer.INFO  [x] Sent 'Date: 3/4/2023, Fiber: 46.099999999999994' to queue 'Fiber'.
+2024-06-10 11:21:38,931.nutrition_producer.INFO  [x] Sent 'Date: 3/5/2023, Protein (g): 164.5' to queue 'Protein (g)'.
+2024-06-10 11:21:38,941.nutrition_producer.INFO  [x] Sent 'Date: 3/5/2023, Fat (g): 70.3' to queue 'Fat (g)'.
+2024-06-10 11:21:38,952.nutrition_producer.INFO  [x] Sent 'Date: 3/5/2023, Carbohydrates (g): 411.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:38,959.nutrition_producer.INFO  [x] Sent 'Date: 3/5/2023, Sodium (mg): 4687.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:38,970.nutrition_producer.INFO  [x] Sent 'Date: 3/5/2023, Fiber: 36.900000000000006' to queue 'Fiber'.
+2024-06-10 11:21:38,978.nutrition_producer.INFO  [x] Sent 'Date: 3/6/2023, Protein (g): 165.3' to queue 'Protein (g)'.
+2024-06-10 11:21:39,004.nutrition_producer.INFO  [x] Sent 'Date: 3/6/2023, Fat (g): 66.1' to queue 'Fat (g)'.
+2024-06-10 11:21:39,010.nutrition_producer.INFO  [x] Sent 'Date: 3/6/2023, Carbohydrates (g): 417.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,019.nutrition_producer.INFO  [x] Sent 'Date: 3/6/2023, Sodium (mg): 4646.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,024.nutrition_producer.INFO  [x] Sent 'Date: 3/6/2023, Fiber: 42.099999999999994' to queue 'Fiber'.
+2024-06-10 11:21:39,029.nutrition_producer.INFO  [x] Sent 'Date: 3/7/2023, Protein (g): 164.4' to queue 'Protein (g)'.
+2024-06-10 11:21:39,038.nutrition_producer.INFO  [x] Sent 'Date: 3/7/2023, Fat (g): 64.1' to queue 'Fat (g)'.
+2024-06-10 11:21:39,044.nutrition_producer.INFO  [x] Sent 'Date: 3/7/2023, Carbohydrates (g): 409.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,053.nutrition_producer.INFO  [x] Sent 'Date: 3/7/2023, Sodium (mg): 4187.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,060.nutrition_producer.INFO  [x] Sent 'Date: 3/7/2023, Fiber: 33.2' to queue 'Fiber'.
+2024-06-10 11:21:39,068.nutrition_producer.INFO  [x] Sent 'Date: 3/8/2023, Protein (g): 167.10000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:39,073.nutrition_producer.INFO  [x] Sent 'Date: 3/8/2023, Fat (g): 62.900000000000006' to queue 'Fat (g)'.
+2024-06-10 11:21:39,079.nutrition_producer.INFO  [x] Sent 'Date: 3/8/2023, Carbohydrates (g): 407.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,087.nutrition_producer.INFO  [x] Sent 'Date: 3/8/2023, Sodium (mg): 3502.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,091.nutrition_producer.INFO  [x] Sent 'Date: 3/8/2023, Fiber: 35.0' to queue 'Fiber'.
+2024-06-10 11:21:39,097.nutrition_producer.INFO  [x] Sent 'Date: 3/9/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:39,105.nutrition_producer.INFO  [x] Sent 'Date: 3/9/2023, Fat (g): 61.0' to queue 'Fat (g)'.
+2024-06-10 11:21:39,113.nutrition_producer.INFO  [x] Sent 'Date: 3/9/2023, Carbohydrates (g): 305.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,123.nutrition_producer.INFO  [x] Sent 'Date: 3/9/2023, Sodium (mg): 3337.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,128.nutrition_producer.INFO  [x] Sent 'Date: 3/9/2023, Fiber: 24.7' to queue 'Fiber'.
+2024-06-10 11:21:39,137.nutrition_producer.INFO  [x] Sent 'Date: 3/10/2023, Protein (g): 165.8' to queue 'Protein (g)'.
+2024-06-10 11:21:39,141.nutrition_producer.INFO  [x] Sent 'Date: 3/10/2023, Fat (g): 64.0' to queue 'Fat (g)'.
+2024-06-10 11:21:39,150.nutrition_producer.INFO  [x] Sent 'Date: 3/10/2023, Carbohydrates (g): 410.59999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,173.nutrition_producer.INFO  [x] Sent 'Date: 3/10/2023, Sodium (mg): 3647.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,178.nutrition_producer.INFO  [x] Sent 'Date: 3/10/2023, Fiber: 30.800000000000004' to queue 'Fiber'.
+2024-06-10 11:21:39,187.nutrition_producer.INFO  [x] Sent 'Date: 3/11/2023, Protein (g): 164.8' to queue 'Protein (g)'.
+2024-06-10 11:21:39,192.nutrition_producer.INFO  [x] Sent 'Date: 3/11/2023, Fat (g): 65.7' to queue 'Fat (g)'.
+2024-06-10 11:21:39,197.nutrition_producer.INFO  [x] Sent 'Date: 3/11/2023, Carbohydrates (g): 411.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,205.nutrition_producer.INFO  [x] Sent 'Date: 3/11/2023, Sodium (mg): 4167.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,210.nutrition_producer.INFO  [x] Sent 'Date: 3/11/2023, Fiber: 33.5' to queue 'Fiber'.
+2024-06-10 11:21:39,219.nutrition_producer.INFO  [x] Sent 'Date: 3/12/2023, Protein (g): 165.1' to queue 'Protein (g)'.
+2024-06-10 11:21:39,224.nutrition_producer.INFO  [x] Sent 'Date: 3/12/2023, Fat (g): 65.6' to queue 'Fat (g)'.
+2024-06-10 11:21:39,254.nutrition_producer.INFO  [x] Sent 'Date: 3/12/2023, Carbohydrates (g): 408.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,259.nutrition_producer.INFO  [x] Sent 'Date: 3/12/2023, Sodium (mg): 4194.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,264.nutrition_producer.INFO  [x] Sent 'Date: 3/12/2023, Fiber: 36.1' to queue 'Fiber'.
+2024-06-10 11:21:39,272.nutrition_producer.INFO  [x] Sent 'Date: 3/13/2023, Protein (g): 165.8' to queue 'Protein (g)'.
+2024-06-10 11:21:39,278.nutrition_producer.INFO  [x] Sent 'Date: 3/13/2023, Fat (g): 67.1' to queue 'Fat (g)'.
+2024-06-10 11:21:39,284.nutrition_producer.INFO  [x] Sent 'Date: 3/13/2023, Carbohydrates (g): 293.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,289.nutrition_producer.INFO  [x] Sent 'Date: 3/13/2023, Sodium (mg): 3337.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,295.nutrition_producer.INFO  [x] Sent 'Date: 3/13/2023, Fiber: 29.7' to queue 'Fiber'.
+2024-06-10 11:21:39,302.nutrition_producer.INFO  [x] Sent 'Date: 3/14/2023, Protein (g): 158.5' to queue 'Protein (g)'.
+2024-06-10 11:21:39,308.nutrition_producer.INFO  [x] Sent 'Date: 3/14/2023, Fat (g): 74.2' to queue 'Fat (g)'.
+2024-06-10 11:21:39,313.nutrition_producer.INFO  [x] Sent 'Date: 3/14/2023, Carbohydrates (g): 409.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,321.nutrition_producer.INFO  [x] Sent 'Date: 3/14/2023, Sodium (mg): 3845.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,327.nutrition_producer.INFO  [x] Sent 'Date: 3/14/2023, Fiber: 35.0' to queue 'Fiber'.
+2024-06-10 11:21:39,334.nutrition_producer.INFO  [x] Sent 'Date: 3/15/2023, Protein (g): 159.2' to queue 'Protein (g)'.
+2024-06-10 11:21:39,342.nutrition_producer.INFO  [x] Sent 'Date: 3/15/2023, Fat (g): 64.4' to queue 'Fat (g)'.
+2024-06-10 11:21:39,349.nutrition_producer.INFO  [x] Sent 'Date: 3/15/2023, Carbohydrates (g): 310.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,356.nutrition_producer.INFO  [x] Sent 'Date: 3/15/2023, Sodium (mg): 3368.3999999999996' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,362.nutrition_producer.INFO  [x] Sent 'Date: 3/15/2023, Fiber: 39.49999999999999' to queue 'Fiber'.
+2024-06-10 11:21:39,371.nutrition_producer.INFO  [x] Sent 'Date: 3/16/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:39,376.nutrition_producer.INFO  [x] Sent 'Date: 3/16/2023, Fat (g): 65.1' to queue 'Fat (g)'.
+2024-06-10 11:21:39,381.nutrition_producer.INFO  [x] Sent 'Date: 3/16/2023, Carbohydrates (g): 299.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,401.nutrition_producer.INFO  [x] Sent 'Date: 3/16/2023, Sodium (mg): 3506.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,423.nutrition_producer.INFO  [x] Sent 'Date: 3/16/2023, Fiber: 24.7' to queue 'Fiber'.
+2024-06-10 11:21:39,455.nutrition_producer.INFO  [x] Sent 'Date: 3/17/2023, Protein (g): 126.8' to queue 'Protein (g)'.
+2024-06-10 11:21:39,461.nutrition_producer.INFO  [x] Sent 'Date: 3/17/2023, Fat (g): 38.9' to queue 'Fat (g)'.
+2024-06-10 11:21:39,468.nutrition_producer.INFO  [x] Sent 'Date: 3/17/2023, Carbohydrates (g): 288.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,504.nutrition_producer.INFO  [x] Sent 'Date: 3/17/2023, Sodium (mg): 2628.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,512.nutrition_producer.INFO  [x] Sent 'Date: 3/17/2023, Fiber: 39.8' to queue 'Fiber'.
+2024-06-10 11:21:39,521.nutrition_producer.INFO  [x] Sent 'Date: 3/18/2023, Protein (g): 165.4' to queue 'Protein (g)'.
+2024-06-10 11:21:39,528.nutrition_producer.INFO  [x] Sent 'Date: 3/18/2023, Fat (g): 66.19999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:39,538.nutrition_producer.INFO  [x] Sent 'Date: 3/18/2023, Carbohydrates (g): 407.19999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,543.nutrition_producer.INFO  [x] Sent 'Date: 3/18/2023, Sodium (mg): 3775.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,554.nutrition_producer.INFO  [x] Sent 'Date: 3/18/2023, Fiber: 33.3' to queue 'Fiber'.
+2024-06-10 11:21:39,560.nutrition_producer.INFO  [x] Sent 'Date: 3/19/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:39,568.nutrition_producer.INFO  [x] Sent 'Date: 3/19/2023, Fat (g): 63.3' to queue 'Fat (g)'.
+2024-06-10 11:21:39,574.nutrition_producer.INFO  [x] Sent 'Date: 3/19/2023, Carbohydrates (g): 301.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,579.nutrition_producer.INFO  [x] Sent 'Date: 3/19/2023, Sodium (mg): 2086.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,587.nutrition_producer.INFO  [x] Sent 'Date: 3/19/2023, Fiber: 45.1' to queue 'Fiber'.
+2024-06-10 11:21:39,592.nutrition_producer.INFO  [x] Sent 'Date: 3/20/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:39,597.nutrition_producer.INFO  [x] Sent 'Date: 3/20/2023, Fat (g): 62.9' to queue 'Fat (g)'.
+2024-06-10 11:21:39,605.nutrition_producer.INFO  [x] Sent 'Date: 3/20/2023, Carbohydrates (g): 412.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,611.nutrition_producer.INFO  [x] Sent 'Date: 3/20/2023, Sodium (mg): 2985.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,619.nutrition_producer.INFO  [x] Sent 'Date: 3/20/2023, Fiber: 33.5' to queue 'Fiber'.
+2024-06-10 11:21:39,624.nutrition_producer.INFO  [x] Sent 'Date: 3/21/2023, Protein (g): 166.0' to queue 'Protein (g)'.
+2024-06-10 11:21:39,629.nutrition_producer.INFO  [x] Sent 'Date: 3/21/2023, Fat (g): 68.8' to queue 'Fat (g)'.
+2024-06-10 11:21:39,638.nutrition_producer.INFO  [x] Sent 'Date: 3/21/2023, Carbohydrates (g): 411.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,643.nutrition_producer.INFO  [x] Sent 'Date: 3/21/2023, Sodium (mg): 4572.299999999999' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,653.nutrition_producer.INFO  [x] Sent 'Date: 3/21/2023, Fiber: 44.1' to queue 'Fiber'.
+2024-06-10 11:21:39,657.nutrition_producer.INFO  [x] Sent 'Date: 3/22/2023, Protein (g): 165.6' to queue 'Protein (g)'.
+2024-06-10 11:21:39,662.nutrition_producer.INFO  [x] Sent 'Date: 3/22/2023, Fat (g): 65.5' to queue 'Fat (g)'.
+2024-06-10 11:21:39,672.nutrition_producer.INFO  [x] Sent 'Date: 3/22/2023, Carbohydrates (g): 300.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,677.nutrition_producer.INFO  [x] Sent 'Date: 3/22/2023, Sodium (mg): 3981.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,685.nutrition_producer.INFO  [x] Sent 'Date: 3/22/2023, Fiber: 30.1' to queue 'Fiber'.
+2024-06-10 11:21:39,692.nutrition_producer.INFO  [x] Sent 'Date: 3/23/2023, Protein (g): 165.20000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:39,697.nutrition_producer.INFO  [x] Sent 'Date: 3/23/2023, Fat (g): 66.1' to queue 'Fat (g)'.
+2024-06-10 11:21:39,706.nutrition_producer.INFO  [x] Sent 'Date: 3/23/2023, Carbohydrates (g): 419.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,710.nutrition_producer.INFO  [x] Sent 'Date: 3/23/2023, Sodium (mg): 3920.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,719.nutrition_producer.INFO  [x] Sent 'Date: 3/23/2023, Fiber: 32.5' to queue 'Fiber'.
+2024-06-10 11:21:39,724.nutrition_producer.INFO  [x] Sent 'Date: 3/24/2023, Protein (g): 164.4' to queue 'Protein (g)'.
+2024-06-10 11:21:39,729.nutrition_producer.INFO  [x] Sent 'Date: 3/24/2023, Fat (g): 65.60000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:39,737.nutrition_producer.INFO  [x] Sent 'Date: 3/24/2023, Carbohydrates (g): 421.70000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,742.nutrition_producer.INFO  [x] Sent 'Date: 3/24/2023, Sodium (mg): 4465.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,746.nutrition_producer.INFO  [x] Sent 'Date: 3/24/2023, Fiber: 31.1' to queue 'Fiber'.
+2024-06-10 11:21:39,755.nutrition_producer.INFO  [x] Sent 'Date: 3/25/2023, Protein (g): 165.2' to queue 'Protein (g)'.
+2024-06-10 11:21:39,763.nutrition_producer.INFO  [x] Sent 'Date: 3/25/2023, Fat (g): 62.599999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:39,772.nutrition_producer.INFO  [x] Sent 'Date: 3/25/2023, Carbohydrates (g): 300.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,778.nutrition_producer.INFO  [x] Sent 'Date: 3/25/2023, Sodium (mg): 2530.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,786.nutrition_producer.INFO  [x] Sent 'Date: 3/25/2023, Fiber: 24.300000000000004' to queue 'Fiber'.
+2024-06-10 11:21:39,791.nutrition_producer.INFO  [x] Sent 'Date: 3/26/2023, Protein (g): 164.5' to queue 'Protein (g)'.
+2024-06-10 11:21:39,795.nutrition_producer.INFO  [x] Sent 'Date: 3/26/2023, Fat (g): 66.9' to queue 'Fat (g)'.
+2024-06-10 11:21:39,804.nutrition_producer.INFO  [x] Sent 'Date: 3/26/2023, Carbohydrates (g): 416.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,811.nutrition_producer.INFO  [x] Sent 'Date: 3/26/2023, Sodium (mg): 3582.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,819.nutrition_producer.INFO  [x] Sent 'Date: 3/26/2023, Fiber: 30.1' to queue 'Fiber'.
+2024-06-10 11:21:39,825.nutrition_producer.INFO  [x] Sent 'Date: 3/27/2023, Protein (g): 166.5' to queue 'Protein (g)'.
+2024-06-10 11:21:39,831.nutrition_producer.INFO  [x] Sent 'Date: 3/27/2023, Fat (g): 70.5' to queue 'Fat (g)'.
+2024-06-10 11:21:39,838.nutrition_producer.INFO  [x] Sent 'Date: 3/27/2023, Carbohydrates (g): 426.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,843.nutrition_producer.INFO  [x] Sent 'Date: 3/27/2023, Sodium (mg): 3352.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,848.nutrition_producer.INFO  [x] Sent 'Date: 3/27/2023, Fiber: 34.0' to queue 'Fiber'.
+2024-06-10 11:21:39,856.nutrition_producer.INFO  [x] Sent 'Date: 3/28/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:39,890.nutrition_producer.INFO  [x] Sent 'Date: 3/28/2023, Fat (g): 63.699999999999996' to queue 'Fat (g)'.
+2024-06-10 11:21:39,895.nutrition_producer.INFO  [x] Sent 'Date: 3/28/2023, Carbohydrates (g): 303.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,905.nutrition_producer.INFO  [x] Sent 'Date: 3/28/2023, Sodium (mg): 3914.7000000000003' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,909.nutrition_producer.INFO  [x] Sent 'Date: 3/28/2023, Fiber: 34.8' to queue 'Fiber'.
+2024-06-10 11:21:39,913.nutrition_producer.INFO  [x] Sent 'Date: 3/29/2023, Protein (g): 164.20000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:39,924.nutrition_producer.INFO  [x] Sent 'Date: 3/29/2023, Fat (g): 71.8' to queue 'Fat (g)'.
+2024-06-10 11:21:39,958.nutrition_producer.INFO  [x] Sent 'Date: 3/29/2023, Carbohydrates (g): 417.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,964.nutrition_producer.INFO  [x] Sent 'Date: 3/29/2023, Sodium (mg): 3812.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:39,973.nutrition_producer.INFO  [x] Sent 'Date: 3/29/2023, Fiber: 47.099999999999994' to queue 'Fiber'.
+2024-06-10 11:21:39,979.nutrition_producer.INFO  [x] Sent 'Date: 3/30/2023, Protein (g): 165.50000000000003' to queue 'Protein (g)'.
+2024-06-10 11:21:39,985.nutrition_producer.INFO  [x] Sent 'Date: 3/30/2023, Fat (g): 73.7' to queue 'Fat (g)'.
+2024-06-10 11:21:39,991.nutrition_producer.INFO  [x] Sent 'Date: 3/30/2023, Carbohydrates (g): 426.20000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:39,996.nutrition_producer.INFO  [x] Sent 'Date: 3/30/2023, Sodium (mg): 3996.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,004.nutrition_producer.INFO  [x] Sent 'Date: 3/30/2023, Fiber: 44.0' to queue 'Fiber'.
+2024-06-10 11:21:40,011.nutrition_producer.INFO  [x] Sent 'Date: 3/31/2023, Protein (g): 165.60000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:40,029.nutrition_producer.INFO  [x] Sent 'Date: 3/31/2023, Fat (g): 66.89999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:40,038.nutrition_producer.INFO  [x] Sent 'Date: 3/31/2023, Carbohydrates (g): 299.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,059.nutrition_producer.INFO  [x] Sent 'Date: 3/31/2023, Sodium (mg): 3897.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,067.nutrition_producer.INFO  [x] Sent 'Date: 3/31/2023, Fiber: 26.1' to queue 'Fiber'.
+2024-06-10 11:21:40,073.nutrition_producer.INFO  [x] Sent 'Date: 4/1/2023, Protein (g): 107.3' to queue 'Protein (g)'.
+2024-06-10 11:21:40,079.nutrition_producer.INFO  [x] Sent 'Date: 4/1/2023, Fat (g): 38.1' to queue 'Fat (g)'.
+2024-06-10 11:21:40,087.nutrition_producer.INFO  [x] Sent 'Date: 4/1/2023, Carbohydrates (g): 253.29999999999998' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,093.nutrition_producer.INFO  [x] Sent 'Date: 4/1/2023, Sodium (mg): 3204.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,102.nutrition_producer.INFO  [x] Sent 'Date: 4/1/2023, Fiber: 28.400000000000002' to queue 'Fiber'.
+2024-06-10 11:21:40,107.nutrition_producer.INFO  [x] Sent 'Date: 4/2/2023, Protein (g): 165.8' to queue 'Protein (g)'.
+2024-06-10 11:21:40,112.nutrition_producer.INFO  [x] Sent 'Date: 4/2/2023, Fat (g): 64.39999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:40,120.nutrition_producer.INFO  [x] Sent 'Date: 4/2/2023, Carbohydrates (g): 422.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,127.nutrition_producer.INFO  [x] Sent 'Date: 4/2/2023, Sodium (mg): 4003.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,136.nutrition_producer.INFO  [x] Sent 'Date: 4/2/2023, Fiber: 30.6' to queue 'Fiber'.
+2024-06-10 11:21:40,141.nutrition_producer.INFO  [x] Sent 'Date: 4/3/2023, Protein (g): 164.39999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:40,145.nutrition_producer.INFO  [x] Sent 'Date: 4/3/2023, Fat (g): 64.2' to queue 'Fat (g)'.
+2024-06-10 11:21:40,170.nutrition_producer.INFO  [x] Sent 'Date: 4/3/2023, Carbohydrates (g): 301.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,197.nutrition_producer.INFO  [x] Sent 'Date: 4/3/2023, Sodium (mg): 3985.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,233.nutrition_producer.INFO  [x] Sent 'Date: 4/3/2023, Fiber: 23.5' to queue 'Fiber'.
+2024-06-10 11:21:40,240.nutrition_producer.INFO  [x] Sent 'Date: 4/4/2023, Protein (g): 165.2' to queue 'Protein (g)'.
+2024-06-10 11:21:40,259.nutrition_producer.INFO  [x] Sent 'Date: 4/4/2023, Fat (g): 66.2' to queue 'Fat (g)'.
+2024-06-10 11:21:40,290.nutrition_producer.INFO  [x] Sent 'Date: 4/4/2023, Carbohydrates (g): 419.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,295.nutrition_producer.INFO  [x] Sent 'Date: 4/4/2023, Sodium (mg): 2918.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,305.nutrition_producer.INFO  [x] Sent 'Date: 4/4/2023, Fiber: 28.5' to queue 'Fiber'.
+2024-06-10 11:21:40,309.nutrition_producer.INFO  [x] Sent 'Date: 4/5/2023, Protein (g): 164.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:40,313.nutrition_producer.INFO  [x] Sent 'Date: 4/5/2023, Fat (g): 64.8' to queue 'Fat (g)'.
+2024-06-10 11:21:40,322.nutrition_producer.INFO  [x] Sent 'Date: 4/5/2023, Carbohydrates (g): 415.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,327.nutrition_producer.INFO  [x] Sent 'Date: 4/5/2023, Sodium (mg): 2943.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,335.nutrition_producer.INFO  [x] Sent 'Date: 4/5/2023, Fiber: 28.1' to queue 'Fiber'.
+2024-06-10 11:21:40,339.nutrition_producer.INFO  [x] Sent 'Date: 4/6/2023, Protein (g): 164.5' to queue 'Protein (g)'.
+2024-06-10 11:21:40,344.nutrition_producer.INFO  [x] Sent 'Date: 4/6/2023, Fat (g): 63.7' to queue 'Fat (g)'.
+2024-06-10 11:21:40,353.nutrition_producer.INFO  [x] Sent 'Date: 4/6/2023, Carbohydrates (g): 301.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,359.nutrition_producer.INFO  [x] Sent 'Date: 4/6/2023, Sodium (mg): 3035.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,368.nutrition_producer.INFO  [x] Sent 'Date: 4/6/2023, Fiber: 20.200000000000003' to queue 'Fiber'.
+2024-06-10 11:21:40,375.nutrition_producer.INFO  [x] Sent 'Date: 4/7/2023, Protein (g): 165.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:40,402.nutrition_producer.INFO  [x] Sent 'Date: 4/7/2023, Fat (g): 66.30000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:40,434.nutrition_producer.INFO  [x] Sent 'Date: 4/7/2023, Carbohydrates (g): 421.19999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,440.nutrition_producer.INFO  [x] Sent 'Date: 4/7/2023, Sodium (mg): 4309.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,445.nutrition_producer.INFO  [x] Sent 'Date: 4/7/2023, Fiber: 28.200000000000003' to queue 'Fiber'.
+2024-06-10 11:21:40,453.nutrition_producer.INFO  [x] Sent 'Date: 4/8/2023, Protein (g): 162.6' to queue 'Protein (g)'.
+2024-06-10 11:21:40,458.nutrition_producer.INFO  [x] Sent 'Date: 4/8/2023, Fat (g): 65.2' to queue 'Fat (g)'.
+2024-06-10 11:21:40,476.nutrition_producer.INFO  [x] Sent 'Date: 4/8/2023, Carbohydrates (g): 306.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,485.nutrition_producer.INFO  [x] Sent 'Date: 4/8/2023, Sodium (mg): 4282.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,490.nutrition_producer.INFO  [x] Sent 'Date: 4/8/2023, Fiber: 23.200000000000003' to queue 'Fiber'.
+2024-06-10 11:21:40,496.nutrition_producer.INFO  [x] Sent 'Date: 4/9/2023, Protein (g): 165.3' to queue 'Protein (g)'.
+2024-06-10 11:21:40,505.nutrition_producer.INFO  [x] Sent 'Date: 4/9/2023, Fat (g): 64.9' to queue 'Fat (g)'.
+2024-06-10 11:21:40,512.nutrition_producer.INFO  [x] Sent 'Date: 4/9/2023, Carbohydrates (g): 420.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,519.nutrition_producer.INFO  [x] Sent 'Date: 4/9/2023, Sodium (mg): 4501.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,538.nutrition_producer.INFO  [x] Sent 'Date: 4/9/2023, Fiber: 24.4' to queue 'Fiber'.
+2024-06-10 11:21:40,543.nutrition_producer.INFO  [x] Sent 'Date: 4/10/2023, Protein (g): 167.89999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:40,552.nutrition_producer.INFO  [x] Sent 'Date: 4/10/2023, Fat (g): 68.6' to queue 'Fat (g)'.
+2024-06-10 11:21:40,557.nutrition_producer.INFO  [x] Sent 'Date: 4/10/2023, Carbohydrates (g): 425.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,563.nutrition_producer.INFO  [x] Sent 'Date: 4/10/2023, Sodium (mg): 3986.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,570.nutrition_producer.INFO  [x] Sent 'Date: 4/10/2023, Fiber: 31.600000000000005' to queue 'Fiber'.
+2024-06-10 11:21:40,574.nutrition_producer.INFO  [x] Sent 'Date: 4/11/2023, Protein (g): 166.7' to queue 'Protein (g)'.
+2024-06-10 11:21:40,579.nutrition_producer.INFO  [x] Sent 'Date: 4/11/2023, Fat (g): 66.6' to queue 'Fat (g)'.
+2024-06-10 11:21:40,588.nutrition_producer.INFO  [x] Sent 'Date: 4/11/2023, Carbohydrates (g): 299.20000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,593.nutrition_producer.INFO  [x] Sent 'Date: 4/11/2023, Sodium (mg): 2225.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,599.nutrition_producer.INFO  [x] Sent 'Date: 4/11/2023, Fiber: 24.1' to queue 'Fiber'.
+2024-06-10 11:21:40,606.nutrition_producer.INFO  [x] Sent 'Date: 4/12/2023, Protein (g): 166.2' to queue 'Protein (g)'.
+2024-06-10 11:21:40,611.nutrition_producer.INFO  [x] Sent 'Date: 4/12/2023, Fat (g): 68.8' to queue 'Fat (g)'.
+2024-06-10 11:21:40,619.nutrition_producer.INFO  [x] Sent 'Date: 4/12/2023, Carbohydrates (g): 418.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,624.nutrition_producer.INFO  [x] Sent 'Date: 4/12/2023, Sodium (mg): 3948.8999999999996' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,634.nutrition_producer.INFO  [x] Sent 'Date: 4/12/2023, Fiber: 30.900000000000006' to queue 'Fiber'.
+2024-06-10 11:21:40,643.nutrition_producer.INFO  [x] Sent 'Date: 4/13/2023, Protein (g): 163.7' to queue 'Protein (g)'.
+2024-06-10 11:21:40,652.nutrition_producer.INFO  [x] Sent 'Date: 4/13/2023, Fat (g): 68.6' to queue 'Fat (g)'.
+2024-06-10 11:21:40,658.nutrition_producer.INFO  [x] Sent 'Date: 4/13/2023, Carbohydrates (g): 421.19999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,663.nutrition_producer.INFO  [x] Sent 'Date: 4/13/2023, Sodium (mg): 4256.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,674.nutrition_producer.INFO  [x] Sent 'Date: 4/13/2023, Fiber: 36.400000000000006' to queue 'Fiber'.
+2024-06-10 11:21:40,680.nutrition_producer.INFO  [x] Sent 'Date: 4/14/2023, Protein (g): 164.6' to queue 'Protein (g)'.
+2024-06-10 11:21:40,692.nutrition_producer.INFO  [x] Sent 'Date: 4/14/2023, Fat (g): 63.300000000000004' to queue 'Fat (g)'.
+2024-06-10 11:21:40,698.nutrition_producer.INFO  [x] Sent 'Date: 4/14/2023, Carbohydrates (g): 299.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,707.nutrition_producer.INFO  [x] Sent 'Date: 4/14/2023, Sodium (mg): 4169.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,717.nutrition_producer.INFO  [x] Sent 'Date: 4/14/2023, Fiber: 28.300000000000004' to queue 'Fiber'.
+2024-06-10 11:21:40,733.nutrition_producer.INFO  [x] Sent 'Date: 4/15/2023, Protein (g): 165.10000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:40,747.nutrition_producer.INFO  [x] Sent 'Date: 4/15/2023, Fat (g): 66.7' to queue 'Fat (g)'.
+2024-06-10 11:21:40,759.nutrition_producer.INFO  [x] Sent 'Date: 4/15/2023, Carbohydrates (g): 299.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,769.nutrition_producer.INFO  [x] Sent 'Date: 4/15/2023, Sodium (mg): 3741.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,776.nutrition_producer.INFO  [x] Sent 'Date: 4/15/2023, Fiber: 36.4' to queue 'Fiber'.
+2024-06-10 11:21:40,784.nutrition_producer.INFO  [x] Sent 'Date: 4/16/2023, Protein (g): 165.1' to queue 'Protein (g)'.
+2024-06-10 11:21:40,795.nutrition_producer.INFO  [x] Sent 'Date: 4/16/2023, Fat (g): 62.4' to queue 'Fat (g)'.
+2024-06-10 11:21:40,804.nutrition_producer.INFO  [x] Sent 'Date: 4/16/2023, Carbohydrates (g): 415.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,810.nutrition_producer.INFO  [x] Sent 'Date: 4/16/2023, Sodium (mg): 3404.1000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,821.nutrition_producer.INFO  [x] Sent 'Date: 4/16/2023, Fiber: 38.0' to queue 'Fiber'.
+2024-06-10 11:21:40,827.nutrition_producer.INFO  [x] Sent 'Date: 4/17/2023, Protein (g): 166.4' to queue 'Protein (g)'.
+2024-06-10 11:21:40,837.nutrition_producer.INFO  [x] Sent 'Date: 4/17/2023, Fat (g): 64.7' to queue 'Fat (g)'.
+2024-06-10 11:21:40,845.nutrition_producer.INFO  [x] Sent 'Date: 4/17/2023, Carbohydrates (g): 421.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,853.nutrition_producer.INFO  [x] Sent 'Date: 4/17/2023, Sodium (mg): 3450.1000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,860.nutrition_producer.INFO  [x] Sent 'Date: 4/17/2023, Fiber: 48.6' to queue 'Fiber'.
+2024-06-10 11:21:40,876.nutrition_producer.INFO  [x] Sent 'Date: 4/18/2023, Protein (g): 168.0' to queue 'Protein (g)'.
+2024-06-10 11:21:40,887.nutrition_producer.INFO  [x] Sent 'Date: 4/18/2023, Fat (g): 63.0' to queue 'Fat (g)'.
+2024-06-10 11:21:40,900.nutrition_producer.INFO  [x] Sent 'Date: 4/18/2023, Carbohydrates (g): 299.20000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,912.nutrition_producer.INFO  [x] Sent 'Date: 4/18/2023, Sodium (mg): 3662.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,923.nutrition_producer.INFO  [x] Sent 'Date: 4/18/2023, Fiber: 26.700000000000003' to queue 'Fiber'.
+2024-06-10 11:21:40,931.nutrition_producer.INFO  [x] Sent 'Date: 4/19/2023, Protein (g): 164.6' to queue 'Protein (g)'.
+2024-06-10 11:21:40,940.nutrition_producer.INFO  [x] Sent 'Date: 4/19/2023, Fat (g): 65.6' to queue 'Fat (g)'.
+2024-06-10 11:21:40,947.nutrition_producer.INFO  [x] Sent 'Date: 4/19/2023, Carbohydrates (g): 414.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,956.nutrition_producer.INFO  [x] Sent 'Date: 4/19/2023, Sodium (mg): 3401.6000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:40,967.nutrition_producer.INFO  [x] Sent 'Date: 4/19/2023, Fiber: 49.800000000000004' to queue 'Fiber'.
+2024-06-10 11:21:40,975.nutrition_producer.INFO  [x] Sent 'Date: 4/20/2023, Protein (g): 165.8' to queue 'Protein (g)'.
+2024-06-10 11:21:40,982.nutrition_producer.INFO  [x] Sent 'Date: 4/20/2023, Fat (g): 63.5' to queue 'Fat (g)'.
+2024-06-10 11:21:40,991.nutrition_producer.INFO  [x] Sent 'Date: 4/20/2023, Carbohydrates (g): 422.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:40,998.nutrition_producer.INFO  [x] Sent 'Date: 4/20/2023, Sodium (mg): 3907.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,012.nutrition_producer.INFO  [x] Sent 'Date: 4/20/2023, Fiber: 28.1' to queue 'Fiber'.
+2024-06-10 11:21:41,022.nutrition_producer.INFO  [x] Sent 'Date: 4/21/2023, Protein (g): 163.6' to queue 'Protein (g)'.
+2024-06-10 11:21:41,027.nutrition_producer.INFO  [x] Sent 'Date: 4/21/2023, Fat (g): 66.3' to queue 'Fat (g)'.
+2024-06-10 11:21:41,038.nutrition_producer.INFO  [x] Sent 'Date: 4/21/2023, Carbohydrates (g): 302.09999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,045.nutrition_producer.INFO  [x] Sent 'Date: 4/21/2023, Sodium (mg): 3528.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,054.nutrition_producer.INFO  [x] Sent 'Date: 4/21/2023, Fiber: 23.6' to queue 'Fiber'.
+2024-06-10 11:21:41,061.nutrition_producer.INFO  [x] Sent 'Date: 4/22/2023, Protein (g): 103.5' to queue 'Protein (g)'.
+2024-06-10 11:21:41,073.nutrition_producer.INFO  [x] Sent 'Date: 4/22/2023, Fat (g): 28.6' to queue 'Fat (g)'.
+2024-06-10 11:21:41,081.nutrition_producer.INFO  [x] Sent 'Date: 4/22/2023, Carbohydrates (g): 264.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,090.nutrition_producer.INFO  [x] Sent 'Date: 4/22/2023, Sodium (mg): 2975.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,096.nutrition_producer.INFO  [x] Sent 'Date: 4/22/2023, Fiber: 21.1' to queue 'Fiber'.
+2024-06-10 11:21:41,106.nutrition_producer.INFO  [x] Sent 'Date: 4/23/2023, Protein (g): 144.9' to queue 'Protein (g)'.
+2024-06-10 11:21:41,112.nutrition_producer.INFO  [x] Sent 'Date: 4/23/2023, Fat (g): 44.3' to queue 'Fat (g)'.
+2024-06-10 11:21:41,120.nutrition_producer.INFO  [x] Sent 'Date: 4/23/2023, Carbohydrates (g): 198.60000000000002' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,126.nutrition_producer.INFO  [x] Sent 'Date: 4/23/2023, Sodium (mg): 2641.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,133.nutrition_producer.INFO  [x] Sent 'Date: 4/23/2023, Fiber: 22.0' to queue 'Fiber'.
+2024-06-10 11:21:41,140.nutrition_producer.INFO  [x] Sent 'Date: 4/24/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:41,145.nutrition_producer.INFO  [x] Sent 'Date: 4/24/2023, Fat (g): 65.1' to queue 'Fat (g)'.
+2024-06-10 11:21:41,154.nutrition_producer.INFO  [x] Sent 'Date: 4/24/2023, Carbohydrates (g): 419.80000000000007' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,159.nutrition_producer.INFO  [x] Sent 'Date: 4/24/2023, Sodium (mg): 3534.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,169.nutrition_producer.INFO  [x] Sent 'Date: 4/24/2023, Fiber: 31.500000000000004' to queue 'Fiber'.
+2024-06-10 11:21:41,174.nutrition_producer.INFO  [x] Sent 'Date: 4/25/2023, Protein (g): 165.1' to queue 'Protein (g)'.
+2024-06-10 11:21:41,180.nutrition_producer.INFO  [x] Sent 'Date: 4/25/2023, Fat (g): 65.6' to queue 'Fat (g)'.
+2024-06-10 11:21:41,189.nutrition_producer.INFO  [x] Sent 'Date: 4/25/2023, Carbohydrates (g): 420.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,195.nutrition_producer.INFO  [x] Sent 'Date: 4/25/2023, Sodium (mg): 3602.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,210.nutrition_producer.INFO  [x] Sent 'Date: 4/25/2023, Fiber: 31.400000000000006' to queue 'Fiber'.
+2024-06-10 11:21:41,219.nutrition_producer.INFO  [x] Sent 'Date: 4/26/2023, Protein (g): 166.4' to queue 'Protein (g)'.
+2024-06-10 11:21:41,225.nutrition_producer.INFO  [x] Sent 'Date: 4/26/2023, Fat (g): 69.6' to queue 'Fat (g)'.
+2024-06-10 11:21:41,231.nutrition_producer.INFO  [x] Sent 'Date: 4/26/2023, Carbohydrates (g): 288.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,240.nutrition_producer.INFO  [x] Sent 'Date: 4/26/2023, Sodium (mg): 4247.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,245.nutrition_producer.INFO  [x] Sent 'Date: 4/26/2023, Fiber: 24.4' to queue 'Fiber'.
+2024-06-10 11:21:41,253.nutrition_producer.INFO  [x] Sent 'Date: 4/27/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:41,258.nutrition_producer.INFO  [x] Sent 'Date: 4/27/2023, Fat (g): 67.8' to queue 'Fat (g)'.
+2024-06-10 11:21:41,264.nutrition_producer.INFO  [x] Sent 'Date: 4/27/2023, Carbohydrates (g): 420.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,272.nutrition_producer.INFO  [x] Sent 'Date: 4/27/2023, Sodium (mg): 4683.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,278.nutrition_producer.INFO  [x] Sent 'Date: 4/27/2023, Fiber: 34.9' to queue 'Fiber'.
+2024-06-10 11:21:41,287.nutrition_producer.INFO  [x] Sent 'Date: 4/28/2023, Protein (g): 154.0' to queue 'Protein (g)'.
+2024-06-10 11:21:41,294.nutrition_producer.INFO  [x] Sent 'Date: 4/28/2023, Fat (g): 61.7' to queue 'Fat (g)'.
+2024-06-10 11:21:41,303.nutrition_producer.INFO  [x] Sent 'Date: 4/28/2023, Carbohydrates (g): 261.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,309.nutrition_producer.INFO  [x] Sent 'Date: 4/28/2023, Sodium (mg): 1844.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,314.nutrition_producer.INFO  [x] Sent 'Date: 4/28/2023, Fiber: 35.4' to queue 'Fiber'.
+2024-06-10 11:21:41,323.nutrition_producer.INFO  [x] Sent 'Date: 4/29/2023, Protein (g): 172.0' to queue 'Protein (g)'.
+2024-06-10 11:21:41,328.nutrition_producer.INFO  [x] Sent 'Date: 4/29/2023, Fat (g): 71.5' to queue 'Fat (g)'.
+2024-06-10 11:21:41,335.nutrition_producer.INFO  [x] Sent 'Date: 4/29/2023, Carbohydrates (g): 410.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,343.nutrition_producer.INFO  [x] Sent 'Date: 4/29/2023, Sodium (mg): 3996.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,351.nutrition_producer.INFO  [x] Sent 'Date: 4/29/2023, Fiber: 39.3' to queue 'Fiber'.
+2024-06-10 11:21:41,357.nutrition_producer.INFO  [x] Sent 'Date: 4/30/2023, Protein (g): 162.2' to queue 'Protein (g)'.
+2024-06-10 11:21:41,362.nutrition_producer.INFO  [x] Sent 'Date: 4/30/2023, Fat (g): 63.1' to queue 'Fat (g)'.
+2024-06-10 11:21:41,373.nutrition_producer.INFO  [x] Sent 'Date: 4/30/2023, Carbohydrates (g): 424.20000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,379.nutrition_producer.INFO  [x] Sent 'Date: 4/30/2023, Sodium (mg): 4445.200000000001' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,388.nutrition_producer.INFO  [x] Sent 'Date: 4/30/2023, Fiber: 45.099999999999994' to queue 'Fiber'.
+2024-06-10 11:21:41,393.nutrition_producer.INFO  [x] Sent 'Date: 5/1/2023, Protein (g): 166.4' to queue 'Protein (g)'.
+2024-06-10 11:21:41,401.nutrition_producer.INFO  [x] Sent 'Date: 5/1/2023, Fat (g): 66.6' to queue 'Fat (g)'.
+2024-06-10 11:21:41,408.nutrition_producer.INFO  [x] Sent 'Date: 5/1/2023, Carbohydrates (g): 303.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,413.nutrition_producer.INFO  [x] Sent 'Date: 5/1/2023, Sodium (mg): 3469.1000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,421.nutrition_producer.INFO  [x] Sent 'Date: 5/1/2023, Fiber: 30.3' to queue 'Fiber'.
+2024-06-10 11:21:41,425.nutrition_producer.INFO  [x] Sent 'Date: 5/2/2023, Protein (g): 159.9' to queue 'Protein (g)'.
+2024-06-10 11:21:41,434.nutrition_producer.INFO  [x] Sent 'Date: 5/2/2023, Fat (g): 77.19999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:41,440.nutrition_producer.INFO  [x] Sent 'Date: 5/2/2023, Carbohydrates (g): 414.30000000000007' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,446.nutrition_producer.INFO  [x] Sent 'Date: 5/2/2023, Sodium (mg): 4472.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,454.nutrition_producer.INFO  [x] Sent 'Date: 5/2/2023, Fiber: 35.2' to queue 'Fiber'.
+2024-06-10 11:21:41,461.nutrition_producer.INFO  [x] Sent 'Date: 5/3/2023, Protein (g): 164.2' to queue 'Protein (g)'.
+2024-06-10 11:21:41,471.nutrition_producer.INFO  [x] Sent 'Date: 5/3/2023, Fat (g): 71.6' to queue 'Fat (g)'.
+2024-06-10 11:21:41,476.nutrition_producer.INFO  [x] Sent 'Date: 5/3/2023, Carbohydrates (g): 418.80000000000007' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,488.nutrition_producer.INFO  [x] Sent 'Date: 5/3/2023, Sodium (mg): 3890.6000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,504.nutrition_producer.INFO  [x] Sent 'Date: 5/3/2023, Fiber: 35.400000000000006' to queue 'Fiber'.
+2024-06-10 11:21:41,513.nutrition_producer.INFO  [x] Sent 'Date: 5/4/2023, Protein (g): 154.8' to queue 'Protein (g)'.
+2024-06-10 11:21:41,523.nutrition_producer.INFO  [x] Sent 'Date: 5/4/2023, Fat (g): 68.1' to queue 'Fat (g)'.
+2024-06-10 11:21:41,529.nutrition_producer.INFO  [x] Sent 'Date: 5/4/2023, Carbohydrates (g): 295.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,537.nutrition_producer.INFO  [x] Sent 'Date: 5/4/2023, Sodium (mg): 3234.5999999999995' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,543.nutrition_producer.INFO  [x] Sent 'Date: 5/4/2023, Fiber: 33.3' to queue 'Fiber'.
+2024-06-10 11:21:41,550.nutrition_producer.INFO  [x] Sent 'Date: 5/5/2023, Protein (g): 129.0' to queue 'Protein (g)'.
+2024-06-10 11:21:41,558.nutrition_producer.INFO  [x] Sent 'Date: 5/5/2023, Fat (g): 90.3' to queue 'Fat (g)'.
+2024-06-10 11:21:41,563.nutrition_producer.INFO  [x] Sent 'Date: 5/5/2023, Carbohydrates (g): 173.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,572.nutrition_producer.INFO  [x] Sent 'Date: 5/5/2023, Sodium (mg): 3228.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,578.nutrition_producer.INFO  [x] Sent 'Date: 5/5/2023, Fiber: 34.900000000000006' to queue 'Fiber'.
+2024-06-10 11:21:41,585.nutrition_producer.INFO  [x] Sent 'Date: 5/6/2023, Protein (g): 164.3' to queue 'Protein (g)'.
+2024-06-10 11:21:41,593.nutrition_producer.INFO  [x] Sent 'Date: 5/6/2023, Fat (g): 96.29999999999998' to queue 'Fat (g)'.
+2024-06-10 11:21:41,604.nutrition_producer.INFO  [x] Sent 'Date: 5/6/2023, Carbohydrates (g): 373.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,611.nutrition_producer.INFO  [x] Sent 'Date: 5/6/2023, Sodium (mg): 4933.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,621.nutrition_producer.INFO  [x] Sent 'Date: 5/6/2023, Fiber: 50.5' to queue 'Fiber'.
+2024-06-10 11:21:41,628.nutrition_producer.INFO  [x] Sent 'Date: 5/7/2023, Protein (g): 89.1' to queue 'Protein (g)'.
+2024-06-10 11:21:41,638.nutrition_producer.INFO  [x] Sent 'Date: 5/7/2023, Fat (g): 80.8' to queue 'Fat (g)'.
+2024-06-10 11:21:41,644.nutrition_producer.INFO  [x] Sent 'Date: 5/7/2023, Carbohydrates (g): 281.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,652.nutrition_producer.INFO  [x] Sent 'Date: 5/7/2023, Sodium (mg): 2624.8999999999996' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,659.nutrition_producer.INFO  [x] Sent 'Date: 5/7/2023, Fiber: 39.7' to queue 'Fiber'.
+2024-06-10 11:21:41,669.nutrition_producer.INFO  [x] Sent 'Date: 5/8/2023, Protein (g): 163.9' to queue 'Protein (g)'.
+2024-06-10 11:21:41,674.nutrition_producer.INFO  [x] Sent 'Date: 5/8/2023, Fat (g): 68.7' to queue 'Fat (g)'.
+2024-06-10 11:21:41,681.nutrition_producer.INFO  [x] Sent 'Date: 5/8/2023, Carbohydrates (g): 417.09999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,690.nutrition_producer.INFO  [x] Sent 'Date: 5/8/2023, Sodium (mg): 4733.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,696.nutrition_producer.INFO  [x] Sent 'Date: 5/8/2023, Fiber: 37.099999999999994' to queue 'Fiber'.
+2024-06-10 11:21:41,702.nutrition_producer.INFO  [x] Sent 'Date: 5/9/2023, Protein (g): 164.2' to queue 'Protein (g)'.
+2024-06-10 11:21:41,708.nutrition_producer.INFO  [x] Sent 'Date: 5/9/2023, Fat (g): 65.0' to queue 'Fat (g)'.
+2024-06-10 11:21:41,717.nutrition_producer.INFO  [x] Sent 'Date: 5/9/2023, Carbohydrates (g): 300.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,723.nutrition_producer.INFO  [x] Sent 'Date: 5/9/2023, Sodium (mg): 3013.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,730.nutrition_producer.INFO  [x] Sent 'Date: 5/9/2023, Fiber: 24.799999999999997' to queue 'Fiber'.
+2024-06-10 11:21:41,737.nutrition_producer.INFO  [x] Sent 'Date: 5/10/2023, Protein (g): 116.2' to queue 'Protein (g)'.
+2024-06-10 11:21:41,743.nutrition_producer.INFO  [x] Sent 'Date: 5/10/2023, Fat (g): 41.5' to queue 'Fat (g)'.
+2024-06-10 11:21:41,750.nutrition_producer.INFO  [x] Sent 'Date: 5/10/2023, Carbohydrates (g): 161.39999999999998' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,760.nutrition_producer.INFO  [x] Sent 'Date: 5/10/2023, Sodium (mg): 1502.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,770.nutrition_producer.INFO  [x] Sent 'Date: 5/10/2023, Fiber: 21.0' to queue 'Fiber'.
+2024-06-10 11:21:41,776.nutrition_producer.INFO  [x] Sent 'Date: 5/11/2023, Protein (g): 98.7' to queue 'Protein (g)'.
+2024-06-10 11:21:41,784.nutrition_producer.INFO  [x] Sent 'Date: 5/11/2023, Fat (g): 48.4' to queue 'Fat (g)'.
+2024-06-10 11:21:41,790.nutrition_producer.INFO  [x] Sent 'Date: 5/11/2023, Carbohydrates (g): 166.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,797.nutrition_producer.INFO  [x] Sent 'Date: 5/11/2023, Sodium (mg): 1811.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,804.nutrition_producer.INFO  [x] Sent 'Date: 5/11/2023, Fiber: 17.799999999999997' to queue 'Fiber'.
+2024-06-10 11:21:41,810.nutrition_producer.INFO  [x] Sent 'Date: 5/12/2023, Protein (g): 165.20000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:41,821.nutrition_producer.INFO  [x] Sent 'Date: 5/12/2023, Fat (g): 67.7' to queue 'Fat (g)'.
+2024-06-10 11:21:41,826.nutrition_producer.INFO  [x] Sent 'Date: 5/12/2023, Carbohydrates (g): 419.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,833.nutrition_producer.INFO  [x] Sent 'Date: 5/12/2023, Sodium (mg): 4803.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,840.nutrition_producer.INFO  [x] Sent 'Date: 5/12/2023, Fiber: 35.9' to queue 'Fiber'.
+2024-06-10 11:21:41,845.nutrition_producer.INFO  [x] Sent 'Date: 5/13/2023, Protein (g): 136.6' to queue 'Protein (g)'.
+2024-06-10 11:21:41,853.nutrition_producer.INFO  [x] Sent 'Date: 5/13/2023, Fat (g): 56.7' to queue 'Fat (g)'.
+2024-06-10 11:21:41,859.nutrition_producer.INFO  [x] Sent 'Date: 5/13/2023, Carbohydrates (g): 337.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,864.nutrition_producer.INFO  [x] Sent 'Date: 5/13/2023, Sodium (mg): 3635.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,874.nutrition_producer.INFO  [x] Sent 'Date: 5/13/2023, Fiber: 30.9' to queue 'Fiber'.
+2024-06-10 11:21:41,879.nutrition_producer.INFO  [x] Sent 'Date: 5/14/2023, Protein (g): 148.3' to queue 'Protein (g)'.
+2024-06-10 11:21:41,887.nutrition_producer.INFO  [x] Sent 'Date: 5/14/2023, Fat (g): 42.10000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:41,893.nutrition_producer.INFO  [x] Sent 'Date: 5/14/2023, Carbohydrates (g): 233.89999999999998' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,905.nutrition_producer.INFO  [x] Sent 'Date: 5/14/2023, Sodium (mg): 2425.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,914.nutrition_producer.INFO  [x] Sent 'Date: 5/14/2023, Fiber: 22.0' to queue 'Fiber'.
+2024-06-10 11:21:41,922.nutrition_producer.INFO  [x] Sent 'Date: 5/15/2023, Protein (g): 166.3' to queue 'Protein (g)'.
+2024-06-10 11:21:41,928.nutrition_producer.INFO  [x] Sent 'Date: 5/15/2023, Fat (g): 70.7' to queue 'Fat (g)'.
+2024-06-10 11:21:41,937.nutrition_producer.INFO  [x] Sent 'Date: 5/15/2023, Carbohydrates (g): 419.69999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,942.nutrition_producer.INFO  [x] Sent 'Date: 5/15/2023, Sodium (mg): 4339.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,948.nutrition_producer.INFO  [x] Sent 'Date: 5/15/2023, Fiber: 35.8' to queue 'Fiber'.
+2024-06-10 11:21:41,957.nutrition_producer.INFO  [x] Sent 'Date: 5/16/2023, Protein (g): 166.3' to queue 'Protein (g)'.
+2024-06-10 11:21:41,964.nutrition_producer.INFO  [x] Sent 'Date: 5/16/2023, Fat (g): 70.7' to queue 'Fat (g)'.
+2024-06-10 11:21:41,972.nutrition_producer.INFO  [x] Sent 'Date: 5/16/2023, Carbohydrates (g): 419.69999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:41,978.nutrition_producer.INFO  [x] Sent 'Date: 5/16/2023, Sodium (mg): 4339.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:41,987.nutrition_producer.INFO  [x] Sent 'Date: 5/16/2023, Fiber: 35.8' to queue 'Fiber'.
+2024-06-10 11:21:41,992.nutrition_producer.INFO  [x] Sent 'Date: 5/17/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:42,004.nutrition_producer.INFO  [x] Sent 'Date: 5/17/2023, Fat (g): 65.6' to queue 'Fat (g)'.
+2024-06-10 11:21:42,012.nutrition_producer.INFO  [x] Sent 'Date: 5/17/2023, Carbohydrates (g): 300.20000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,024.nutrition_producer.INFO  [x] Sent 'Date: 5/17/2023, Sodium (mg): 2876.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,029.nutrition_producer.INFO  [x] Sent 'Date: 5/17/2023, Fiber: 26.5' to queue 'Fiber'.
+2024-06-10 11:21:42,037.nutrition_producer.INFO  [x] Sent 'Date: 5/18/2023, Protein (g): 164.20000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:42,044.nutrition_producer.INFO  [x] Sent 'Date: 5/18/2023, Fat (g): 70.3' to queue 'Fat (g)'.
+2024-06-10 11:21:42,053.nutrition_producer.INFO  [x] Sent 'Date: 5/18/2023, Carbohydrates (g): 419.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,058.nutrition_producer.INFO  [x] Sent 'Date: 5/18/2023, Sodium (mg): 3843.1000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,063.nutrition_producer.INFO  [x] Sent 'Date: 5/18/2023, Fiber: 34.0' to queue 'Fiber'.
+2024-06-10 11:21:42,089.nutrition_producer.INFO  [x] Sent 'Date: 5/19/2023, Protein (g): 145.0' to queue 'Protein (g)'.
+2024-06-10 11:21:42,097.nutrition_producer.INFO  [x] Sent 'Date: 5/19/2023, Fat (g): 70.3' to queue 'Fat (g)'.
+2024-06-10 11:21:42,104.nutrition_producer.INFO  [x] Sent 'Date: 5/19/2023, Carbohydrates (g): 398.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,136.nutrition_producer.INFO  [x] Sent 'Date: 5/19/2023, Sodium (mg): 3743.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,144.nutrition_producer.INFO  [x] Sent 'Date: 5/19/2023, Fiber: 34.0' to queue 'Fiber'.
+2024-06-10 11:21:42,162.nutrition_producer.INFO  [x] Sent 'Date: 5/20/2023, Protein (g): 147.5' to queue 'Protein (g)'.
+2024-06-10 11:21:42,172.nutrition_producer.INFO  [x] Sent 'Date: 5/20/2023, Fat (g): 51.2' to queue 'Fat (g)'.
+2024-06-10 11:21:42,180.nutrition_producer.INFO  [x] Sent 'Date: 5/20/2023, Carbohydrates (g): 252.89999999999998' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,192.nutrition_producer.INFO  [x] Sent 'Date: 5/20/2023, Sodium (mg): 2180.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,197.nutrition_producer.INFO  [x] Sent 'Date: 5/20/2023, Fiber: 26.7' to queue 'Fiber'.
+2024-06-10 11:21:42,205.nutrition_producer.INFO  [x] Sent 'Date: 5/21/2023, Protein (g): 159.1' to queue 'Protein (g)'.
+2024-06-10 11:21:42,212.nutrition_producer.INFO  [x] Sent 'Date: 5/21/2023, Fat (g): 69.7' to queue 'Fat (g)'.
+2024-06-10 11:21:42,221.nutrition_producer.INFO  [x] Sent 'Date: 5/21/2023, Carbohydrates (g): 421.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,226.nutrition_producer.INFO  [x] Sent 'Date: 5/21/2023, Sodium (mg): 3819.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,235.nutrition_producer.INFO  [x] Sent 'Date: 5/21/2023, Fiber: 35.4' to queue 'Fiber'.
+2024-06-10 11:21:42,241.nutrition_producer.INFO  [x] Sent 'Date: 5/22/2023, Protein (g): 158.1' to queue 'Protein (g)'.
+2024-06-10 11:21:42,246.nutrition_producer.INFO  [x] Sent 'Date: 5/22/2023, Fat (g): 67.3' to queue 'Fat (g)'.
+2024-06-10 11:21:42,254.nutrition_producer.INFO  [x] Sent 'Date: 5/22/2023, Carbohydrates (g): 392.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,260.nutrition_producer.INFO  [x] Sent 'Date: 5/22/2023, Sodium (mg): 3624.1000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,267.nutrition_producer.INFO  [x] Sent 'Date: 5/22/2023, Fiber: 30.099999999999994' to queue 'Fiber'.
+2024-06-10 11:21:42,273.nutrition_producer.INFO  [x] Sent 'Date: 5/23/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:42,278.nutrition_producer.INFO  [x] Sent 'Date: 5/23/2023, Fat (g): 73.0' to queue 'Fat (g)'.
+2024-06-10 11:21:42,307.nutrition_producer.INFO  [x] Sent 'Date: 5/23/2023, Carbohydrates (g): 301.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,317.nutrition_producer.INFO  [x] Sent 'Date: 5/23/2023, Sodium (mg): 2669.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,325.nutrition_producer.INFO  [x] Sent 'Date: 5/23/2023, Fiber: 22.4' to queue 'Fiber'.
+2024-06-10 11:21:42,334.nutrition_producer.INFO  [x] Sent 'Date: 5/24/2023, Protein (g): 161.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:42,342.nutrition_producer.INFO  [x] Sent 'Date: 5/24/2023, Fat (g): 66.39999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:42,351.nutrition_producer.INFO  [x] Sent 'Date: 5/24/2023, Carbohydrates (g): 299.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,358.nutrition_producer.INFO  [x] Sent 'Date: 5/24/2023, Sodium (mg): 4199.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,363.nutrition_producer.INFO  [x] Sent 'Date: 5/24/2023, Fiber: 27.299999999999997' to queue 'Fiber'.
+2024-06-10 11:21:42,372.nutrition_producer.INFO  [x] Sent 'Date: 5/25/2023, Protein (g): 164.5' to queue 'Protein (g)'.
+2024-06-10 11:21:42,377.nutrition_producer.INFO  [x] Sent 'Date: 5/25/2023, Fat (g): 67.0' to queue 'Fat (g)'.
+2024-06-10 11:21:42,387.nutrition_producer.INFO  [x] Sent 'Date: 5/25/2023, Carbohydrates (g): 420.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,392.nutrition_producer.INFO  [x] Sent 'Date: 5/25/2023, Sodium (mg): 4677.400000000001' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,398.nutrition_producer.INFO  [x] Sent 'Date: 5/25/2023, Fiber: 29.299999999999997' to queue 'Fiber'.
+2024-06-10 11:21:42,408.nutrition_producer.INFO  [x] Sent 'Date: 5/26/2023, Protein (g): 163.3' to queue 'Protein (g)'.
+2024-06-10 11:21:42,413.nutrition_producer.INFO  [x] Sent 'Date: 5/26/2023, Fat (g): 65.7' to queue 'Fat (g)'.
+2024-06-10 11:21:42,422.nutrition_producer.INFO  [x] Sent 'Date: 5/26/2023, Carbohydrates (g): 419.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,429.nutrition_producer.INFO  [x] Sent 'Date: 5/26/2023, Sodium (mg): 4545.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,437.nutrition_producer.INFO  [x] Sent 'Date: 5/26/2023, Fiber: 25.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:42,442.nutrition_producer.INFO  [x] Sent 'Date: 5/27/2023, Protein (g): 167.2' to queue 'Protein (g)'.
+2024-06-10 11:21:42,451.nutrition_producer.INFO  [x] Sent 'Date: 5/27/2023, Fat (g): 97.6' to queue 'Fat (g)'.
+2024-06-10 11:21:42,458.nutrition_producer.INFO  [x] Sent 'Date: 5/27/2023, Carbohydrates (g): 294.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,468.nutrition_producer.INFO  [x] Sent 'Date: 5/27/2023, Sodium (mg): 3157.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,473.nutrition_producer.INFO  [x] Sent 'Date: 5/27/2023, Fiber: 22.799999999999997' to queue 'Fiber'.
+2024-06-10 11:21:42,479.nutrition_producer.INFO  [x] Sent 'Date: 5/28/2023, Protein (g): 165.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:42,488.nutrition_producer.INFO  [x] Sent 'Date: 5/28/2023, Fat (g): 76.3' to queue 'Fat (g)'.
+2024-06-10 11:21:42,493.nutrition_producer.INFO  [x] Sent 'Date: 5/28/2023, Carbohydrates (g): 398.70000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,501.nutrition_producer.INFO  [x] Sent 'Date: 5/28/2023, Sodium (mg): 4335.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,508.nutrition_producer.INFO  [x] Sent 'Date: 5/28/2023, Fiber: 39.1' to queue 'Fiber'.
+2024-06-10 11:21:42,514.nutrition_producer.INFO  [x] Sent 'Date: 5/29/2023, Protein (g): 163.2' to queue 'Protein (g)'.
+2024-06-10 11:21:42,523.nutrition_producer.INFO  [x] Sent 'Date: 5/29/2023, Fat (g): 67.8' to queue 'Fat (g)'.
+2024-06-10 11:21:42,528.nutrition_producer.INFO  [x] Sent 'Date: 5/29/2023, Carbohydrates (g): 418.70000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,537.nutrition_producer.INFO  [x] Sent 'Date: 5/29/2023, Sodium (mg): 4939.200000000001' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,542.nutrition_producer.INFO  [x] Sent 'Date: 5/29/2023, Fiber: 35.699999999999996' to queue 'Fiber'.
+2024-06-10 11:21:42,547.nutrition_producer.INFO  [x] Sent 'Date: 5/30/2023, Protein (g): 157.1' to queue 'Protein (g)'.
+2024-06-10 11:21:42,555.nutrition_producer.INFO  [x] Sent 'Date: 5/30/2023, Fat (g): 74.3' to queue 'Fat (g)'.
+2024-06-10 11:21:42,561.nutrition_producer.INFO  [x] Sent 'Date: 5/30/2023, Carbohydrates (g): 358.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,569.nutrition_producer.INFO  [x] Sent 'Date: 5/30/2023, Sodium (mg): 3498.2000000000007' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,575.nutrition_producer.INFO  [x] Sent 'Date: 5/30/2023, Fiber: 30.9' to queue 'Fiber'.
+2024-06-10 11:21:42,579.nutrition_producer.INFO  [x] Sent 'Date: 5/31/2023, Protein (g): 164.70000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:42,587.nutrition_producer.INFO  [x] Sent 'Date: 5/31/2023, Fat (g): 63.8' to queue 'Fat (g)'.
+2024-06-10 11:21:42,593.nutrition_producer.INFO  [x] Sent 'Date: 5/31/2023, Carbohydrates (g): 422.19999999999993' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,607.nutrition_producer.INFO  [x] Sent 'Date: 5/31/2023, Sodium (mg): 5354.400000000001' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,613.nutrition_producer.INFO  [x] Sent 'Date: 5/31/2023, Fiber: 37.6' to queue 'Fiber'.
+2024-06-10 11:21:42,622.nutrition_producer.INFO  [x] Sent 'Date: 6/1/2023, Protein (g): 165.3' to queue 'Protein (g)'.
+2024-06-10 11:21:42,628.nutrition_producer.INFO  [x] Sent 'Date: 6/1/2023, Fat (g): 67.19999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:42,645.nutrition_producer.INFO  [x] Sent 'Date: 6/1/2023, Carbohydrates (g): 366.70000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,656.nutrition_producer.INFO  [x] Sent 'Date: 6/1/2023, Sodium (mg): 5406.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,661.nutrition_producer.INFO  [x] Sent 'Date: 6/1/2023, Fiber: 40.9' to queue 'Fiber'.
+2024-06-10 11:21:42,670.nutrition_producer.INFO  [x] Sent 'Date: 6/2/2023, Protein (g): 165.2' to queue 'Protein (g)'.
+2024-06-10 11:21:42,676.nutrition_producer.INFO  [x] Sent 'Date: 6/2/2023, Fat (g): 61.6' to queue 'Fat (g)'.
+2024-06-10 11:21:42,681.nutrition_producer.INFO  [x] Sent 'Date: 6/2/2023, Carbohydrates (g): 371.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,690.nutrition_producer.INFO  [x] Sent 'Date: 6/2/2023, Sodium (mg): 4272.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,697.nutrition_producer.INFO  [x] Sent 'Date: 6/2/2023, Fiber: 35.5' to queue 'Fiber'.
+2024-06-10 11:21:42,705.nutrition_producer.INFO  [x] Sent 'Date: 6/3/2023, Protein (g): 128.10000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:42,710.nutrition_producer.INFO  [x] Sent 'Date: 6/3/2023, Fat (g): 52.7' to queue 'Fat (g)'.
+2024-06-10 11:21:42,720.nutrition_producer.INFO  [x] Sent 'Date: 6/3/2023, Carbohydrates (g): 261.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,741.nutrition_producer.INFO  [x] Sent 'Date: 6/3/2023, Sodium (mg): 3111.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,746.nutrition_producer.INFO  [x] Sent 'Date: 6/3/2023, Fiber: 20.6' to queue 'Fiber'.
+2024-06-10 11:21:42,755.nutrition_producer.INFO  [x] Sent 'Date: 6/4/2023, Protein (g): 157.4' to queue 'Protein (g)'.
+2024-06-10 11:21:42,760.nutrition_producer.INFO  [x] Sent 'Date: 6/4/2023, Fat (g): 66.6' to queue 'Fat (g)'.
+2024-06-10 11:21:42,769.nutrition_producer.INFO  [x] Sent 'Date: 6/4/2023, Carbohydrates (g): 359.40000000000003' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,774.nutrition_producer.INFO  [x] Sent 'Date: 6/4/2023, Sodium (mg): 3578.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,779.nutrition_producer.INFO  [x] Sent 'Date: 6/4/2023, Fiber: 37.0' to queue 'Fiber'.
+2024-06-10 11:21:42,787.nutrition_producer.INFO  [x] Sent 'Date: 6/5/2023, Protein (g): 164.1' to queue 'Protein (g)'.
+2024-06-10 11:21:42,793.nutrition_producer.INFO  [x] Sent 'Date: 6/5/2023, Fat (g): 64.0' to queue 'Fat (g)'.
+2024-06-10 11:21:42,803.nutrition_producer.INFO  [x] Sent 'Date: 6/5/2023, Carbohydrates (g): 365.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,808.nutrition_producer.INFO  [x] Sent 'Date: 6/5/2023, Sodium (mg): 2386.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,813.nutrition_producer.INFO  [x] Sent 'Date: 6/5/2023, Fiber: 36.6' to queue 'Fiber'.
+2024-06-10 11:21:42,823.nutrition_producer.INFO  [x] Sent 'Date: 6/6/2023, Protein (g): 164.1' to queue 'Protein (g)'.
+2024-06-10 11:21:42,830.nutrition_producer.INFO  [x] Sent 'Date: 6/6/2023, Fat (g): 64.1' to queue 'Fat (g)'.
+2024-06-10 11:21:42,839.nutrition_producer.INFO  [x] Sent 'Date: 6/6/2023, Carbohydrates (g): 363.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,844.nutrition_producer.INFO  [x] Sent 'Date: 6/6/2023, Sodium (mg): 3161.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,851.nutrition_producer.INFO  [x] Sent 'Date: 6/6/2023, Fiber: 27.9' to queue 'Fiber'.
+2024-06-10 11:21:42,858.nutrition_producer.INFO  [x] Sent 'Date: 6/7/2023, Protein (g): 166.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:42,878.nutrition_producer.INFO  [x] Sent 'Date: 6/7/2023, Fat (g): 64.9' to queue 'Fat (g)'.
+2024-06-10 11:21:42,888.nutrition_producer.INFO  [x] Sent 'Date: 6/7/2023, Carbohydrates (g): 363.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,893.nutrition_producer.INFO  [x] Sent 'Date: 6/7/2023, Sodium (mg): 2977.9999999999995' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,902.nutrition_producer.INFO  [x] Sent 'Date: 6/7/2023, Fiber: 37.8' to queue 'Fiber'.
+2024-06-10 11:21:42,908.nutrition_producer.INFO  [x] Sent 'Date: 6/8/2023, Protein (g): 165.1' to queue 'Protein (g)'.
+2024-06-10 11:21:42,913.nutrition_producer.INFO  [x] Sent 'Date: 6/8/2023, Fat (g): 62.4' to queue 'Fat (g)'.
+2024-06-10 11:21:42,924.nutrition_producer.INFO  [x] Sent 'Date: 6/8/2023, Carbohydrates (g): 370.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,929.nutrition_producer.INFO  [x] Sent 'Date: 6/8/2023, Sodium (mg): 3222.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,940.nutrition_producer.INFO  [x] Sent 'Date: 6/8/2023, Fiber: 29.4' to queue 'Fiber'.
+2024-06-10 11:21:42,945.nutrition_producer.INFO  [x] Sent 'Date: 6/9/2023, Protein (g): 108.0' to queue 'Protein (g)'.
+2024-06-10 11:21:42,955.nutrition_producer.INFO  [x] Sent 'Date: 6/9/2023, Fat (g): 33.5' to queue 'Fat (g)'.
+2024-06-10 11:21:42,960.nutrition_producer.INFO  [x] Sent 'Date: 6/9/2023, Carbohydrates (g): 153.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:42,968.nutrition_producer.INFO  [x] Sent 'Date: 6/9/2023, Sodium (mg): 1812.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:42,975.nutrition_producer.INFO  [x] Sent 'Date: 6/9/2023, Fiber: 15.7' to queue 'Fiber'.
+2024-06-10 11:21:42,980.nutrition_producer.INFO  [x] Sent 'Date: 6/10/2023, Protein (g): 136.2' to queue 'Protein (g)'.
+2024-06-10 11:21:42,989.nutrition_producer.INFO  [x] Sent 'Date: 6/10/2023, Fat (g): 45.1' to queue 'Fat (g)'.
+2024-06-10 11:21:42,994.nutrition_producer.INFO  [x] Sent 'Date: 6/10/2023, Carbohydrates (g): 293.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,003.nutrition_producer.INFO  [x] Sent 'Date: 6/10/2023, Sodium (mg): 3677.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,009.nutrition_producer.INFO  [x] Sent 'Date: 6/10/2023, Fiber: 21.4' to queue 'Fiber'.
+2024-06-10 11:21:43,022.nutrition_producer.INFO  [x] Sent 'Date: 6/11/2023, Protein (g): 71.4' to queue 'Protein (g)'.
+2024-06-10 11:21:43,028.nutrition_producer.INFO  [x] Sent 'Date: 6/11/2023, Fat (g): 35.8' to queue 'Fat (g)'.
+2024-06-10 11:21:43,043.nutrition_producer.INFO  [x] Sent 'Date: 6/11/2023, Carbohydrates (g): 233.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,061.nutrition_producer.INFO  [x] Sent 'Date: 6/11/2023, Sodium (mg): 2598.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,073.nutrition_producer.INFO  [x] Sent 'Date: 6/11/2023, Fiber: 18.4' to queue 'Fiber'.
+2024-06-10 11:21:43,080.nutrition_producer.INFO  [x] Sent 'Date: 6/12/2023, Protein (g): 40.3' to queue 'Protein (g)'.
+2024-06-10 11:21:43,089.nutrition_producer.INFO  [x] Sent 'Date: 6/12/2023, Fat (g): 15.5' to queue 'Fat (g)'.
+2024-06-10 11:21:43,095.nutrition_producer.INFO  [x] Sent 'Date: 6/12/2023, Carbohydrates (g): 117.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,124.nutrition_producer.INFO  [x] Sent 'Date: 6/12/2023, Sodium (mg): 1009.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,131.nutrition_producer.INFO  [x] Sent 'Date: 6/12/2023, Fiber: 8.8' to queue 'Fiber'.
+2024-06-10 11:21:43,141.nutrition_producer.INFO  [x] Sent 'Date: 6/13/2023, Protein (g): 102.3' to queue 'Protein (g)'.
+2024-06-10 11:21:43,147.nutrition_producer.INFO  [x] Sent 'Date: 6/13/2023, Fat (g): 35.099999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:43,161.nutrition_producer.INFO  [x] Sent 'Date: 6/13/2023, Carbohydrates (g): 214.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,185.nutrition_producer.INFO  [x] Sent 'Date: 6/13/2023, Sodium (mg): 1548.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,191.nutrition_producer.INFO  [x] Sent 'Date: 6/13/2023, Fiber: 21.0' to queue 'Fiber'.
+2024-06-10 11:21:43,196.nutrition_producer.INFO  [x] Sent 'Date: 6/14/2023, Protein (g): 165.1' to queue 'Protein (g)'.
+2024-06-10 11:21:43,205.nutrition_producer.INFO  [x] Sent 'Date: 6/14/2023, Fat (g): 48.4' to queue 'Fat (g)'.
+2024-06-10 11:21:43,210.nutrition_producer.INFO  [x] Sent 'Date: 6/14/2023, Carbohydrates (g): 367.09999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,220.nutrition_producer.INFO  [x] Sent 'Date: 6/14/2023, Sodium (mg): 3099.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,225.nutrition_producer.INFO  [x] Sent 'Date: 6/14/2023, Fiber: 26.299999999999997' to queue 'Fiber'.
+2024-06-10 11:21:43,231.nutrition_producer.INFO  [x] Sent 'Date: 6/15/2023, Protein (g): 145.8' to queue 'Protein (g)'.
+2024-06-10 11:21:43,241.nutrition_producer.INFO  [x] Sent 'Date: 6/15/2023, Fat (g): 65.80000000000001' to queue 'Fat (g)'.
+2024-06-10 11:21:43,245.nutrition_producer.INFO  [x] Sent 'Date: 6/15/2023, Carbohydrates (g): 272.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,255.nutrition_producer.INFO  [x] Sent 'Date: 6/15/2023, Sodium (mg): 3058.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,260.nutrition_producer.INFO  [x] Sent 'Date: 6/15/2023, Fiber: 24.5' to queue 'Fiber'.
+2024-06-10 11:21:43,269.nutrition_producer.INFO  [x] Sent 'Date: 6/16/2023, Protein (g): 164.2' to queue 'Protein (g)'.
+2024-06-10 11:21:43,274.nutrition_producer.INFO  [x] Sent 'Date: 6/16/2023, Fat (g): 50.4' to queue 'Fat (g)'.
+2024-06-10 11:21:43,280.nutrition_producer.INFO  [x] Sent 'Date: 6/16/2023, Carbohydrates (g): 366.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,307.nutrition_producer.INFO  [x] Sent 'Date: 6/16/2023, Sodium (mg): 3142.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,339.nutrition_producer.INFO  [x] Sent 'Date: 6/16/2023, Fiber: 26.5' to queue 'Fiber'.
+2024-06-10 11:21:43,346.nutrition_producer.INFO  [x] Sent 'Date: 6/17/2023, Protein (g): 165.0' to queue 'Protein (g)'.
+2024-06-10 11:21:43,357.nutrition_producer.INFO  [x] Sent 'Date: 6/17/2023, Fat (g): 50.1' to queue 'Fat (g)'.
+2024-06-10 11:21:43,363.nutrition_producer.INFO  [x] Sent 'Date: 6/17/2023, Carbohydrates (g): 356.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,385.nutrition_producer.INFO  [x] Sent 'Date: 6/17/2023, Sodium (mg): 3488.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,419.nutrition_producer.INFO  [x] Sent 'Date: 6/17/2023, Fiber: 29.700000000000003' to queue 'Fiber'.
+2024-06-10 11:21:43,425.nutrition_producer.INFO  [x] Sent 'Date: 6/18/2023, Protein (g): 164.7' to queue 'Protein (g)'.
+2024-06-10 11:21:43,437.nutrition_producer.INFO  [x] Sent 'Date: 6/18/2023, Fat (g): 51.099999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:43,442.nutrition_producer.INFO  [x] Sent 'Date: 6/18/2023, Carbohydrates (g): 367.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,451.nutrition_producer.INFO  [x] Sent 'Date: 6/18/2023, Sodium (mg): 2398.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,457.nutrition_producer.INFO  [x] Sent 'Date: 6/18/2023, Fiber: 32.0' to queue 'Fiber'.
+2024-06-10 11:21:43,462.nutrition_producer.INFO  [x] Sent 'Date: 6/19/2023, Protein (g): 174.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:43,470.nutrition_producer.INFO  [x] Sent 'Date: 6/19/2023, Fat (g): 46.9' to queue 'Fat (g)'.
+2024-06-10 11:21:43,476.nutrition_producer.INFO  [x] Sent 'Date: 6/19/2023, Carbohydrates (g): 360.70000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,481.nutrition_producer.INFO  [x] Sent 'Date: 6/19/2023, Sodium (mg): 2526.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,492.nutrition_producer.INFO  [x] Sent 'Date: 6/19/2023, Fiber: 24.1' to queue 'Fiber'.
+2024-06-10 11:21:43,497.nutrition_producer.INFO  [x] Sent 'Date: 6/20/2023, Protein (g): 165.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:43,506.nutrition_producer.INFO  [x] Sent 'Date: 6/20/2023, Fat (g): 49.300000000000004' to queue 'Fat (g)'.
+2024-06-10 11:21:43,512.nutrition_producer.INFO  [x] Sent 'Date: 6/20/2023, Carbohydrates (g): 357.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,521.nutrition_producer.INFO  [x] Sent 'Date: 6/20/2023, Sodium (mg): 3145.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,525.nutrition_producer.INFO  [x] Sent 'Date: 6/20/2023, Fiber: 33.0' to queue 'Fiber'.
+2024-06-10 11:21:43,535.nutrition_producer.INFO  [x] Sent 'Date: 6/21/2023, Protein (g): 163.6' to queue 'Protein (g)'.
+2024-06-10 11:21:43,541.nutrition_producer.INFO  [x] Sent 'Date: 6/21/2023, Fat (g): 51.2' to queue 'Fat (g)'.
+2024-06-10 11:21:43,546.nutrition_producer.INFO  [x] Sent 'Date: 6/21/2023, Carbohydrates (g): 351.20000000000005' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,558.nutrition_producer.INFO  [x] Sent 'Date: 6/21/2023, Sodium (mg): 3219.2999999999997' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,563.nutrition_producer.INFO  [x] Sent 'Date: 6/21/2023, Fiber: 30.0' to queue 'Fiber'.
+2024-06-10 11:21:43,573.nutrition_producer.INFO  [x] Sent 'Date: 6/22/2023, Protein (g): 164.1' to queue 'Protein (g)'.
+2024-06-10 11:21:43,580.nutrition_producer.INFO  [x] Sent 'Date: 6/22/2023, Fat (g): 47.8' to queue 'Fat (g)'.
+2024-06-10 11:21:43,592.nutrition_producer.INFO  [x] Sent 'Date: 6/22/2023, Carbohydrates (g): 315.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,623.nutrition_producer.INFO  [x] Sent 'Date: 6/22/2023, Sodium (mg): 4272.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,628.nutrition_producer.INFO  [x] Sent 'Date: 6/22/2023, Fiber: 26.799999999999997' to queue 'Fiber'.
+2024-06-10 11:21:43,637.nutrition_producer.INFO  [x] Sent 'Date: 6/23/2023, Protein (g): 160.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:43,643.nutrition_producer.INFO  [x] Sent 'Date: 6/23/2023, Fat (g): 48.8' to queue 'Fat (g)'.
+2024-06-10 11:21:43,650.nutrition_producer.INFO  [x] Sent 'Date: 6/23/2023, Carbohydrates (g): 315.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,679.nutrition_producer.INFO  [x] Sent 'Date: 6/23/2023, Sodium (mg): 4159.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,690.nutrition_producer.INFO  [x] Sent 'Date: 6/23/2023, Fiber: 25.9' to queue 'Fiber'.
+2024-06-10 11:21:43,695.nutrition_producer.INFO  [x] Sent 'Date: 6/24/2023, Protein (g): 165.0' to queue 'Protein (g)'.
+2024-06-10 11:21:43,703.nutrition_producer.INFO  [x] Sent 'Date: 6/24/2023, Fat (g): 41.900000000000006' to queue 'Fat (g)'.
+2024-06-10 11:21:43,709.nutrition_producer.INFO  [x] Sent 'Date: 6/24/2023, Carbohydrates (g): 315.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,720.nutrition_producer.INFO  [x] Sent 'Date: 6/24/2023, Sodium (mg): 4273.700000000001' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,725.nutrition_producer.INFO  [x] Sent 'Date: 6/24/2023, Fiber: 23.9' to queue 'Fiber'.
+2024-06-10 11:21:43,729.nutrition_producer.INFO  [x] Sent 'Date: 6/25/2023, Protein (g): 165.0' to queue 'Protein (g)'.
+2024-06-10 11:21:43,739.nutrition_producer.INFO  [x] Sent 'Date: 6/25/2023, Fat (g): 46.0' to queue 'Fat (g)'.
+2024-06-10 11:21:43,757.nutrition_producer.INFO  [x] Sent 'Date: 6/25/2023, Carbohydrates (g): 315.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,762.nutrition_producer.INFO  [x] Sent 'Date: 6/25/2023, Sodium (mg): 3384.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,771.nutrition_producer.INFO  [x] Sent 'Date: 6/25/2023, Fiber: 31.200000000000003' to queue 'Fiber'.
+2024-06-10 11:21:43,775.nutrition_producer.INFO  [x] Sent 'Date: 6/26/2023, Protein (g): 165.4' to queue 'Protein (g)'.
+2024-06-10 11:21:43,781.nutrition_producer.INFO  [x] Sent 'Date: 6/26/2023, Fat (g): 46.7' to queue 'Fat (g)'.
+2024-06-10 11:21:43,789.nutrition_producer.INFO  [x] Sent 'Date: 6/26/2023, Carbohydrates (g): 316.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,795.nutrition_producer.INFO  [x] Sent 'Date: 6/26/2023, Sodium (mg): 3304.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,804.nutrition_producer.INFO  [x] Sent 'Date: 6/26/2023, Fiber: 27.800000000000004' to queue 'Fiber'.
+2024-06-10 11:21:43,809.nutrition_producer.INFO  [x] Sent 'Date: 6/27/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:43,818.nutrition_producer.INFO  [x] Sent 'Date: 6/27/2023, Fat (g): 48.7' to queue 'Fat (g)'.
+2024-06-10 11:21:43,827.nutrition_producer.INFO  [x] Sent 'Date: 6/27/2023, Carbohydrates (g): 314.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,834.nutrition_producer.INFO  [x] Sent 'Date: 6/27/2023, Sodium (mg): 3501.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,840.nutrition_producer.INFO  [x] Sent 'Date: 6/27/2023, Fiber: 27.800000000000004' to queue 'Fiber'.
+2024-06-10 11:21:43,847.nutrition_producer.INFO  [x] Sent 'Date: 6/28/2023, Protein (g): 164.9' to queue 'Protein (g)'.
+2024-06-10 11:21:43,858.nutrition_producer.INFO  [x] Sent 'Date: 6/28/2023, Fat (g): 47.0' to queue 'Fat (g)'.
+2024-06-10 11:21:43,864.nutrition_producer.INFO  [x] Sent 'Date: 6/28/2023, Carbohydrates (g): 317.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,873.nutrition_producer.INFO  [x] Sent 'Date: 6/28/2023, Sodium (mg): 4130.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,878.nutrition_producer.INFO  [x] Sent 'Date: 6/28/2023, Fiber: 26.6' to queue 'Fiber'.
+2024-06-10 11:21:43,887.nutrition_producer.INFO  [x] Sent 'Date: 6/29/2023, Protein (g): 155.20000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:43,892.nutrition_producer.INFO  [x] Sent 'Date: 6/29/2023, Fat (g): 45.5' to queue 'Fat (g)'.
+2024-06-10 11:21:43,897.nutrition_producer.INFO  [x] Sent 'Date: 6/29/2023, Carbohydrates (g): 275.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:43,907.nutrition_producer.INFO  [x] Sent 'Date: 6/29/2023, Sodium (mg): 3967.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:43,926.nutrition_producer.INFO  [x] Sent 'Date: 6/29/2023, Fiber: 23.0' to queue 'Fiber'.
+2024-06-10 11:21:43,959.nutrition_producer.INFO  [x] Sent 'Date: 6/30/2023, Protein (g): 155.1' to queue 'Protein (g)'.
+2024-06-10 11:21:43,993.nutrition_producer.INFO  [x] Sent 'Date: 6/30/2023, Fat (g): 44.9' to queue 'Fat (g)'.
+2024-06-10 11:21:44,000.nutrition_producer.INFO  [x] Sent 'Date: 6/30/2023, Carbohydrates (g): 284.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,009.nutrition_producer.INFO  [x] Sent 'Date: 6/30/2023, Sodium (mg): 3702.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,017.nutrition_producer.INFO  [x] Sent 'Date: 6/30/2023, Fiber: 24.4' to queue 'Fiber'.
+2024-06-10 11:21:44,024.nutrition_producer.INFO  [x] Sent 'Date: 7/1/2023, Protein (g): 156.0' to queue 'Protein (g)'.
+2024-06-10 11:21:44,029.nutrition_producer.INFO  [x] Sent 'Date: 7/1/2023, Fat (g): 46.3' to queue 'Fat (g)'.
+2024-06-10 11:21:44,037.nutrition_producer.INFO  [x] Sent 'Date: 7/1/2023, Carbohydrates (g): 287.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,044.nutrition_producer.INFO  [x] Sent 'Date: 7/1/2023, Sodium (mg): 3168.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,053.nutrition_producer.INFO  [x] Sent 'Date: 7/1/2023, Fiber: 33.699999999999996' to queue 'Fiber'.
+2024-06-10 11:21:44,060.nutrition_producer.INFO  [x] Sent 'Date: 7/2/2023, Protein (g): 147.5' to queue 'Protein (g)'.
+2024-06-10 11:21:44,069.nutrition_producer.INFO  [x] Sent 'Date: 7/2/2023, Fat (g): 66.5' to queue 'Fat (g)'.
+2024-06-10 11:21:44,103.nutrition_producer.INFO  [x] Sent 'Date: 7/2/2023, Carbohydrates (g): 311.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,110.nutrition_producer.INFO  [x] Sent 'Date: 7/2/2023, Sodium (mg): 3692.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,137.nutrition_producer.INFO  [x] Sent 'Date: 7/2/2023, Fiber: 30.799999999999997' to queue 'Fiber'.
+2024-06-10 11:21:44,168.nutrition_producer.INFO  [x] Sent 'Date: 7/3/2023, Protein (g): 155.20000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:44,175.nutrition_producer.INFO  [x] Sent 'Date: 7/3/2023, Fat (g): 42.5' to queue 'Fat (g)'.
+2024-06-10 11:21:44,209.nutrition_producer.INFO  [x] Sent 'Date: 7/3/2023, Carbohydrates (g): 281.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,214.nutrition_producer.INFO  [x] Sent 'Date: 7/3/2023, Sodium (mg): 3197.7999999999997' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,225.nutrition_producer.INFO  [x] Sent 'Date: 7/3/2023, Fiber: 31.0' to queue 'Fiber'.
+2024-06-10 11:21:44,254.nutrition_producer.INFO  [x] Sent 'Date: 7/4/2023, Protein (g): 154.6' to queue 'Protein (g)'.
+2024-06-10 11:21:44,260.nutrition_producer.INFO  [x] Sent 'Date: 7/4/2023, Fat (g): 53.0' to queue 'Fat (g)'.
+2024-06-10 11:21:44,271.nutrition_producer.INFO  [x] Sent 'Date: 7/4/2023, Carbohydrates (g): 278.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,277.nutrition_producer.INFO  [x] Sent 'Date: 7/4/2023, Sodium (mg): 3477.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,307.nutrition_producer.INFO  [x] Sent 'Date: 7/4/2023, Fiber: 23.999999999999996' to queue 'Fiber'.
+2024-06-10 11:21:44,313.nutrition_producer.INFO  [x] Sent 'Date: 7/5/2023, Protein (g): 153.89999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:44,322.nutrition_producer.INFO  [x] Sent 'Date: 7/5/2023, Fat (g): 45.4' to queue 'Fat (g)'.
+2024-06-10 11:21:44,327.nutrition_producer.INFO  [x] Sent 'Date: 7/5/2023, Carbohydrates (g): 279.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,338.nutrition_producer.INFO  [x] Sent 'Date: 7/5/2023, Sodium (mg): 3892.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,348.nutrition_producer.INFO  [x] Sent 'Date: 7/5/2023, Fiber: 24.499999999999996' to queue 'Fiber'.
+2024-06-10 11:21:44,358.nutrition_producer.INFO  [x] Sent 'Date: 7/6/2023, Protein (g): 155.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:44,363.nutrition_producer.INFO  [x] Sent 'Date: 7/6/2023, Fat (g): 43.7' to queue 'Fat (g)'.
+2024-06-10 11:21:44,372.nutrition_producer.INFO  [x] Sent 'Date: 7/6/2023, Carbohydrates (g): 274.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,378.nutrition_producer.INFO  [x] Sent 'Date: 7/6/2023, Sodium (mg): 1704.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,387.nutrition_producer.INFO  [x] Sent 'Date: 7/6/2023, Fiber: 23.2' to queue 'Fiber'.
+2024-06-10 11:21:44,392.nutrition_producer.INFO  [x] Sent 'Date: 7/7/2023, Protein (g): 154.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:44,399.nutrition_producer.INFO  [x] Sent 'Date: 7/7/2023, Fat (g): 45.7' to queue 'Fat (g)'.
+2024-06-10 11:21:44,408.nutrition_producer.INFO  [x] Sent 'Date: 7/7/2023, Carbohydrates (g): 273.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,413.nutrition_producer.INFO  [x] Sent 'Date: 7/7/2023, Sodium (mg): 2992.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,423.nutrition_producer.INFO  [x] Sent 'Date: 7/7/2023, Fiber: 24.0' to queue 'Fiber'.
+2024-06-10 11:21:44,429.nutrition_producer.INFO  [x] Sent 'Date: 7/8/2023, Protein (g): 154.9' to queue 'Protein (g)'.
+2024-06-10 11:21:44,439.nutrition_producer.INFO  [x] Sent 'Date: 7/8/2023, Fat (g): 44.9' to queue 'Fat (g)'.
+2024-06-10 11:21:44,444.nutrition_producer.INFO  [x] Sent 'Date: 7/8/2023, Carbohydrates (g): 275.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,453.nutrition_producer.INFO  [x] Sent 'Date: 7/8/2023, Sodium (mg): 3516.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,458.nutrition_producer.INFO  [x] Sent 'Date: 7/8/2023, Fiber: 26.8' to queue 'Fiber'.
+2024-06-10 11:21:44,463.nutrition_producer.INFO  [x] Sent 'Date: 7/9/2023, Protein (g): 155.89999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:44,470.nutrition_producer.INFO  [x] Sent 'Date: 7/9/2023, Fat (g): 46.599999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:44,475.nutrition_producer.INFO  [x] Sent 'Date: 7/9/2023, Carbohydrates (g): 277.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,485.nutrition_producer.INFO  [x] Sent 'Date: 7/9/2023, Sodium (mg): 3935.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,492.nutrition_producer.INFO  [x] Sent 'Date: 7/9/2023, Fiber: 20.9' to queue 'Fiber'.
+2024-06-10 11:21:44,497.nutrition_producer.INFO  [x] Sent 'Date: 7/10/2023, Protein (g): 155.1' to queue 'Protein (g)'.
+2024-06-10 11:21:44,507.nutrition_producer.INFO  [x] Sent 'Date: 7/10/2023, Fat (g): 45.900000000000006' to queue 'Fat (g)'.
+2024-06-10 11:21:44,513.nutrition_producer.INFO  [x] Sent 'Date: 7/10/2023, Carbohydrates (g): 274.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,522.nutrition_producer.INFO  [x] Sent 'Date: 7/10/2023, Sodium (mg): 3596.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,527.nutrition_producer.INFO  [x] Sent 'Date: 7/10/2023, Fiber: 25.9' to queue 'Fiber'.
+2024-06-10 11:21:44,536.nutrition_producer.INFO  [x] Sent 'Date: 7/11/2023, Protein (g): 154.99999999999997' to queue 'Protein (g)'.
+2024-06-10 11:21:44,544.nutrition_producer.INFO  [x] Sent 'Date: 7/11/2023, Fat (g): 47.0' to queue 'Fat (g)'.
+2024-06-10 11:21:44,553.nutrition_producer.INFO  [x] Sent 'Date: 7/11/2023, Carbohydrates (g): 274.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,559.nutrition_producer.INFO  [x] Sent 'Date: 7/11/2023, Sodium (mg): 3875.2' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,568.nutrition_producer.INFO  [x] Sent 'Date: 7/11/2023, Fiber: 26.7' to queue 'Fiber'.
+2024-06-10 11:21:44,573.nutrition_producer.INFO  [x] Sent 'Date: 7/12/2023, Protein (g): 153.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:44,578.nutrition_producer.INFO  [x] Sent 'Date: 7/12/2023, Fat (g): 46.2' to queue 'Fat (g)'.
+2024-06-10 11:21:44,587.nutrition_producer.INFO  [x] Sent 'Date: 7/12/2023, Carbohydrates (g): 277.29999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,592.nutrition_producer.INFO  [x] Sent 'Date: 7/12/2023, Sodium (mg): 2728.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,597.nutrition_producer.INFO  [x] Sent 'Date: 7/12/2023, Fiber: 24.5' to queue 'Fiber'.
+2024-06-10 11:21:44,607.nutrition_producer.INFO  [x] Sent 'Date: 7/13/2023, Protein (g): 156.3' to queue 'Protein (g)'.
+2024-06-10 11:21:44,612.nutrition_producer.INFO  [x] Sent 'Date: 7/13/2023, Fat (g): 48.5' to queue 'Fat (g)'.
+2024-06-10 11:21:44,622.nutrition_producer.INFO  [x] Sent 'Date: 7/13/2023, Carbohydrates (g): 203.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,627.nutrition_producer.INFO  [x] Sent 'Date: 7/13/2023, Sodium (mg): 3384.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,635.nutrition_producer.INFO  [x] Sent 'Date: 7/13/2023, Fiber: 25.0' to queue 'Fiber'.
+2024-06-10 11:21:44,641.nutrition_producer.INFO  [x] Sent 'Date: 7/14/2023, Protein (g): 152.3' to queue 'Protein (g)'.
+2024-06-10 11:21:44,647.nutrition_producer.INFO  [x] Sent 'Date: 7/14/2023, Fat (g): 49.6' to queue 'Fat (g)'.
+2024-06-10 11:21:44,655.nutrition_producer.INFO  [x] Sent 'Date: 7/14/2023, Carbohydrates (g): 276.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,662.nutrition_producer.INFO  [x] Sent 'Date: 7/14/2023, Sodium (mg): 2937.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,671.nutrition_producer.INFO  [x] Sent 'Date: 7/14/2023, Fiber: 29.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:44,676.nutrition_producer.INFO  [x] Sent 'Date: 7/15/2023, Protein (g): 154.9' to queue 'Protein (g)'.
+2024-06-10 11:21:44,687.nutrition_producer.INFO  [x] Sent 'Date: 7/15/2023, Fat (g): 43.3' to queue 'Fat (g)'.
+2024-06-10 11:21:44,701.nutrition_producer.INFO  [x] Sent 'Date: 7/15/2023, Carbohydrates (g): 276.8' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,732.nutrition_producer.INFO  [x] Sent 'Date: 7/15/2023, Sodium (mg): 3739.1' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,762.nutrition_producer.INFO  [x] Sent 'Date: 7/15/2023, Fiber: 25.4' to queue 'Fiber'.
+2024-06-10 11:21:44,794.nutrition_producer.INFO  [x] Sent 'Date: 7/16/2023, Protein (g): 155.1' to queue 'Protein (g)'.
+2024-06-10 11:21:44,803.nutrition_producer.INFO  [x] Sent 'Date: 7/16/2023, Fat (g): 45.099999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:44,810.nutrition_producer.INFO  [x] Sent 'Date: 7/16/2023, Carbohydrates (g): 197.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,821.nutrition_producer.INFO  [x] Sent 'Date: 7/16/2023, Sodium (mg): 2354.2000000000003' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,828.nutrition_producer.INFO  [x] Sent 'Date: 7/16/2023, Fiber: 25.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:44,839.nutrition_producer.INFO  [x] Sent 'Date: 7/17/2023, Protein (g): 155.0' to queue 'Protein (g)'.
+2024-06-10 11:21:44,872.nutrition_producer.INFO  [x] Sent 'Date: 7/17/2023, Fat (g): 45.5' to queue 'Fat (g)'.
+2024-06-10 11:21:44,877.nutrition_producer.INFO  [x] Sent 'Date: 7/17/2023, Carbohydrates (g): 274.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,888.nutrition_producer.INFO  [x] Sent 'Date: 7/17/2023, Sodium (mg): 3785.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,893.nutrition_producer.INFO  [x] Sent 'Date: 7/17/2023, Fiber: 22.9' to queue 'Fiber'.
+2024-06-10 11:21:44,902.nutrition_producer.INFO  [x] Sent 'Date: 7/18/2023, Protein (g): 154.0' to queue 'Protein (g)'.
+2024-06-10 11:21:44,908.nutrition_producer.INFO  [x] Sent 'Date: 7/18/2023, Fat (g): 43.8' to queue 'Fat (g)'.
+2024-06-10 11:21:44,914.nutrition_producer.INFO  [x] Sent 'Date: 7/18/2023, Carbohydrates (g): 282.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,923.nutrition_producer.INFO  [x] Sent 'Date: 7/18/2023, Sodium (mg): 3079.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,929.nutrition_producer.INFO  [x] Sent 'Date: 7/18/2023, Fiber: 23.599999999999998' to queue 'Fiber'.
+2024-06-10 11:21:44,937.nutrition_producer.INFO  [x] Sent 'Date: 7/19/2023, Protein (g): 155.8' to queue 'Protein (g)'.
+2024-06-10 11:21:44,943.nutrition_producer.INFO  [x] Sent 'Date: 7/19/2023, Fat (g): 43.9' to queue 'Fat (g)'.
+2024-06-10 11:21:44,953.nutrition_producer.INFO  [x] Sent 'Date: 7/19/2023, Carbohydrates (g): 277.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:44,960.nutrition_producer.INFO  [x] Sent 'Date: 7/19/2023, Sodium (mg): 3885.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:44,971.nutrition_producer.INFO  [x] Sent 'Date: 7/19/2023, Fiber: 22.6' to queue 'Fiber'.
+2024-06-10 11:21:44,977.nutrition_producer.INFO  [x] Sent 'Date: 7/20/2023, Protein (g): 156.5' to queue 'Protein (g)'.
+2024-06-10 11:21:44,988.nutrition_producer.INFO  [x] Sent 'Date: 7/20/2023, Fat (g): 47.5' to queue 'Fat (g)'.
+2024-06-10 11:21:44,995.nutrition_producer.INFO  [x] Sent 'Date: 7/20/2023, Carbohydrates (g): 206.29999999999998' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,009.nutrition_producer.INFO  [x] Sent 'Date: 7/20/2023, Sodium (mg): 3186.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,023.nutrition_producer.INFO  [x] Sent 'Date: 7/20/2023, Fiber: 25.299999999999997' to queue 'Fiber'.
+2024-06-10 11:21:45,029.nutrition_producer.INFO  [x] Sent 'Date: 7/21/2023, Protein (g): 155.1' to queue 'Protein (g)'.
+2024-06-10 11:21:45,038.nutrition_producer.INFO  [x] Sent 'Date: 7/21/2023, Fat (g): 45.5' to queue 'Fat (g)'.
+2024-06-10 11:21:45,044.nutrition_producer.INFO  [x] Sent 'Date: 7/21/2023, Carbohydrates (g): 274.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,052.nutrition_producer.INFO  [x] Sent 'Date: 7/21/2023, Sodium (mg): 3767.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,063.nutrition_producer.INFO  [x] Sent 'Date: 7/21/2023, Fiber: 23.2' to queue 'Fiber'.
+2024-06-10 11:21:45,072.nutrition_producer.INFO  [x] Sent 'Date: 7/22/2023, Protein (g): 156.1' to queue 'Protein (g)'.
+2024-06-10 11:21:45,077.nutrition_producer.INFO  [x] Sent 'Date: 7/22/2023, Fat (g): 46.2' to queue 'Fat (g)'.
+2024-06-10 11:21:45,085.nutrition_producer.INFO  [x] Sent 'Date: 7/22/2023, Carbohydrates (g): 205.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,093.nutrition_producer.INFO  [x] Sent 'Date: 7/22/2023, Sodium (mg): 1393.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,105.nutrition_producer.INFO  [x] Sent 'Date: 7/22/2023, Fiber: 20.599999999999998' to queue 'Fiber'.
+2024-06-10 11:21:45,110.nutrition_producer.INFO  [x] Sent 'Date: 7/23/2023, Protein (g): 92.80000000000001' to queue 'Protein (g)'.
+2024-06-10 11:21:45,119.nutrition_producer.INFO  [x] Sent 'Date: 7/23/2023, Fat (g): 66.9' to queue 'Fat (g)'.
+2024-06-10 11:21:45,125.nutrition_producer.INFO  [x] Sent 'Date: 7/23/2023, Carbohydrates (g): 236.89999999999998' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,135.nutrition_producer.INFO  [x] Sent 'Date: 7/23/2023, Sodium (mg): 3381.7999999999997' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,141.nutrition_producer.INFO  [x] Sent 'Date: 7/23/2023, Fiber: 21.3' to queue 'Fiber'.
+2024-06-10 11:21:45,147.nutrition_producer.INFO  [x] Sent 'Date: 7/24/2023, Protein (g): 155.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:45,157.nutrition_producer.INFO  [x] Sent 'Date: 7/24/2023, Fat (g): 46.0' to queue 'Fat (g)'.
+2024-06-10 11:21:45,162.nutrition_producer.INFO  [x] Sent 'Date: 7/24/2023, Carbohydrates (g): 273.59999999999997' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,171.nutrition_producer.INFO  [x] Sent 'Date: 7/24/2023, Sodium (mg): 2993.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,178.nutrition_producer.INFO  [x] Sent 'Date: 7/24/2023, Fiber: 23.5' to queue 'Fiber'.
+2024-06-10 11:21:45,190.nutrition_producer.INFO  [x] Sent 'Date: 7/25/2023, Protein (g): 155.1' to queue 'Protein (g)'.
+2024-06-10 11:21:45,201.nutrition_producer.INFO  [x] Sent 'Date: 7/25/2023, Fat (g): 48.5' to queue 'Fat (g)'.
+2024-06-10 11:21:45,209.nutrition_producer.INFO  [x] Sent 'Date: 7/25/2023, Carbohydrates (g): 274.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,213.nutrition_producer.INFO  [x] Sent 'Date: 7/25/2023, Sodium (mg): 3590.2000000000003' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,223.nutrition_producer.INFO  [x] Sent 'Date: 7/25/2023, Fiber: 25.7' to queue 'Fiber'.
+2024-06-10 11:21:45,229.nutrition_producer.INFO  [x] Sent 'Date: 7/26/2023, Protein (g): 154.6' to queue 'Protein (g)'.
+2024-06-10 11:21:45,242.nutrition_producer.INFO  [x] Sent 'Date: 7/26/2023, Fat (g): 43.800000000000004' to queue 'Fat (g)'.
+2024-06-10 11:21:45,252.nutrition_producer.INFO  [x] Sent 'Date: 7/26/2023, Carbohydrates (g): 176.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,258.nutrition_producer.INFO  [x] Sent 'Date: 7/26/2023, Sodium (mg): 2174.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,263.nutrition_producer.INFO  [x] Sent 'Date: 7/26/2023, Fiber: 28.1' to queue 'Fiber'.
+2024-06-10 11:21:45,271.nutrition_producer.INFO  [x] Sent 'Date: 7/27/2023, Protein (g): 155.1' to queue 'Protein (g)'.
+2024-06-10 11:21:45,275.nutrition_producer.INFO  [x] Sent 'Date: 7/27/2023, Fat (g): 47.1' to queue 'Fat (g)'.
+2024-06-10 11:21:45,285.nutrition_producer.INFO  [x] Sent 'Date: 7/27/2023, Carbohydrates (g): 274.5' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,293.nutrition_producer.INFO  [x] Sent 'Date: 7/27/2023, Sodium (mg): 4037.7000000000003' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,301.nutrition_producer.INFO  [x] Sent 'Date: 7/27/2023, Fiber: 22.599999999999998' to queue 'Fiber'.
+2024-06-10 11:21:45,307.nutrition_producer.INFO  [x] Sent 'Date: 7/28/2023, Protein (g): 159.0' to queue 'Protein (g)'.
+2024-06-10 11:21:45,312.nutrition_producer.INFO  [x] Sent 'Date: 7/28/2023, Fat (g): 48.8' to queue 'Fat (g)'.
+2024-06-10 11:21:45,321.nutrition_producer.INFO  [x] Sent 'Date: 7/28/2023, Carbohydrates (g): 181.6' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,328.nutrition_producer.INFO  [x] Sent 'Date: 7/28/2023, Sodium (mg): 2811.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,339.nutrition_producer.INFO  [x] Sent 'Date: 7/28/2023, Fiber: 17.200000000000003' to queue 'Fiber'.
+2024-06-10 11:21:45,344.nutrition_producer.INFO  [x] Sent 'Date: 7/29/2023, Protein (g): 150.5' to queue 'Protein (g)'.
+2024-06-10 11:21:45,353.nutrition_producer.INFO  [x] Sent 'Date: 7/29/2023, Fat (g): 41.8' to queue 'Fat (g)'.
+2024-06-10 11:21:45,359.nutrition_producer.INFO  [x] Sent 'Date: 7/29/2023, Carbohydrates (g): 174.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,364.nutrition_producer.INFO  [x] Sent 'Date: 7/29/2023, Sodium (mg): 2346.3' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,373.nutrition_producer.INFO  [x] Sent 'Date: 7/29/2023, Fiber: 32.9' to queue 'Fiber'.
+2024-06-10 11:21:45,378.nutrition_producer.INFO  [x] Sent 'Date: 7/30/2023, Protein (g): 118.1' to queue 'Protein (g)'.
+2024-06-10 11:21:45,388.nutrition_producer.INFO  [x] Sent 'Date: 7/30/2023, Fat (g): 71.9' to queue 'Fat (g)'.
+2024-06-10 11:21:45,396.nutrition_producer.INFO  [x] Sent 'Date: 7/30/2023, Carbohydrates (g): 204.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,405.nutrition_producer.INFO  [x] Sent 'Date: 7/30/2023, Sodium (mg): 2487.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,409.nutrition_producer.INFO  [x] Sent 'Date: 7/30/2023, Fiber: 29.8' to queue 'Fiber'.
+2024-06-10 11:21:45,423.nutrition_producer.INFO  [x] Sent 'Date: 7/31/2023, Protein (g): 155.3' to queue 'Protein (g)'.
+2024-06-10 11:21:45,427.nutrition_producer.INFO  [x] Sent 'Date: 7/31/2023, Fat (g): 44.9' to queue 'Fat (g)'.
+2024-06-10 11:21:45,437.nutrition_producer.INFO  [x] Sent 'Date: 7/31/2023, Carbohydrates (g): 273.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,443.nutrition_producer.INFO  [x] Sent 'Date: 7/31/2023, Sodium (mg): 3466.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,449.nutrition_producer.INFO  [x] Sent 'Date: 7/31/2023, Fiber: 20.799999999999997' to queue 'Fiber'.
+2024-06-10 11:21:45,456.nutrition_producer.INFO  [x] Sent 'Date: 8/1/2023, Protein (g): 146.3' to queue 'Protein (g)'.
+2024-06-10 11:21:45,462.nutrition_producer.INFO  [x] Sent 'Date: 8/1/2023, Fat (g): 42.7' to queue 'Fat (g)'.
+2024-06-10 11:21:45,470.nutrition_producer.INFO  [x] Sent 'Date: 8/1/2023, Carbohydrates (g): 278.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,476.nutrition_producer.INFO  [x] Sent 'Date: 8/1/2023, Sodium (mg): 3969.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,487.nutrition_producer.INFO  [x] Sent 'Date: 8/1/2023, Fiber: 23.5' to queue 'Fiber'.
+2024-06-10 11:21:45,492.nutrition_producer.INFO  [x] Sent 'Date: 8/2/2023, Protein (g): 130.9' to queue 'Protein (g)'.
+2024-06-10 11:21:45,501.nutrition_producer.INFO  [x] Sent 'Date: 8/2/2023, Fat (g): 30.5' to queue 'Fat (g)'.
+2024-06-10 11:21:45,525.nutrition_producer.INFO  [x] Sent 'Date: 8/2/2023, Carbohydrates (g): 158.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,541.nutrition_producer.INFO  [x] Sent 'Date: 8/2/2023, Sodium (mg): 3126.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,560.nutrition_producer.INFO  [x] Sent 'Date: 8/2/2023, Fiber: 20.9' to queue 'Fiber'.
+2024-06-10 11:21:45,594.nutrition_producer.INFO  [x] Sent 'Date: 8/3/2023, Protein (g): 154.89999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:45,625.nutrition_producer.INFO  [x] Sent 'Date: 8/3/2023, Fat (g): 44.4' to queue 'Fat (g)'.
+2024-06-10 11:21:45,633.nutrition_producer.INFO  [x] Sent 'Date: 8/3/2023, Carbohydrates (g): 274.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,641.nutrition_producer.INFO  [x] Sent 'Date: 8/3/2023, Sodium (mg): 3329.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,646.nutrition_producer.INFO  [x] Sent 'Date: 8/3/2023, Fiber: 15.9' to queue 'Fiber'.
+2024-06-10 11:21:45,654.nutrition_producer.INFO  [x] Sent 'Date: 8/4/2023, Protein (g): 139.0' to queue 'Protein (g)'.
+2024-06-10 11:21:45,660.nutrition_producer.INFO  [x] Sent 'Date: 8/4/2023, Fat (g): 97.5' to queue 'Fat (g)'.
+2024-06-10 11:21:45,669.nutrition_producer.INFO  [x] Sent 'Date: 8/4/2023, Carbohydrates (g): 309.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,675.nutrition_producer.INFO  [x] Sent 'Date: 8/4/2023, Sodium (mg): 2770.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,684.nutrition_producer.INFO  [x] Sent 'Date: 8/4/2023, Fiber: 41.9' to queue 'Fiber'.
+2024-06-10 11:21:45,694.nutrition_producer.INFO  [x] Sent 'Date: 8/5/2023, Protein (g): 116.4' to queue 'Protein (g)'.
+2024-06-10 11:21:45,704.nutrition_producer.INFO  [x] Sent 'Date: 8/5/2023, Fat (g): 75.6' to queue 'Fat (g)'.
+2024-06-10 11:21:45,723.nutrition_producer.INFO  [x] Sent 'Date: 8/5/2023, Carbohydrates (g): 305.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,729.nutrition_producer.INFO  [x] Sent 'Date: 8/5/2023, Sodium (mg): 4380.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,739.nutrition_producer.INFO  [x] Sent 'Date: 8/5/2023, Fiber: 29.200000000000003' to queue 'Fiber'.
+2024-06-10 11:21:45,744.nutrition_producer.INFO  [x] Sent 'Date: 8/6/2023, Protein (g): 98.3' to queue 'Protein (g)'.
+2024-06-10 11:21:45,755.nutrition_producer.INFO  [x] Sent 'Date: 8/6/2023, Fat (g): 70.2' to queue 'Fat (g)'.
+2024-06-10 11:21:45,762.nutrition_producer.INFO  [x] Sent 'Date: 8/6/2023, Carbohydrates (g): 227.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,773.nutrition_producer.INFO  [x] Sent 'Date: 8/6/2023, Sodium (mg): 2872.8999999999996' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,778.nutrition_producer.INFO  [x] Sent 'Date: 8/6/2023, Fiber: 19.3' to queue 'Fiber'.
+2024-06-10 11:21:45,784.nutrition_producer.INFO  [x] Sent 'Date: 8/7/2023, Protein (g): 151.9' to queue 'Protein (g)'.
+2024-06-10 11:21:45,792.nutrition_producer.INFO  [x] Sent 'Date: 8/7/2023, Fat (g): 52.8' to queue 'Fat (g)'.
+2024-06-10 11:21:45,798.nutrition_producer.INFO  [x] Sent 'Date: 8/7/2023, Carbohydrates (g): 269.2' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,806.nutrition_producer.INFO  [x] Sent 'Date: 8/7/2023, Sodium (mg): 2355.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,813.nutrition_producer.INFO  [x] Sent 'Date: 8/7/2023, Fiber: 26.7' to queue 'Fiber'.
+2024-06-10 11:21:45,822.nutrition_producer.INFO  [x] Sent 'Date: 8/8/2023, Protein (g): 155.9' to queue 'Protein (g)'.
+2024-06-10 11:21:45,828.nutrition_producer.INFO  [x] Sent 'Date: 8/8/2023, Fat (g): 45.6' to queue 'Fat (g)'.
+2024-06-10 11:21:45,839.nutrition_producer.INFO  [x] Sent 'Date: 8/8/2023, Carbohydrates (g): 283.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,844.nutrition_producer.INFO  [x] Sent 'Date: 8/8/2023, Sodium (mg): 4610.0' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,871.nutrition_producer.INFO  [x] Sent 'Date: 8/8/2023, Fiber: 31.900000000000002' to queue 'Fiber'.
+2024-06-10 11:21:45,877.nutrition_producer.INFO  [x] Sent 'Date: 8/9/2023, Protein (g): 155.5' to queue 'Protein (g)'.
+2024-06-10 11:21:45,886.nutrition_producer.INFO  [x] Sent 'Date: 8/9/2023, Fat (g): 44.0' to queue 'Fat (g)'.
+2024-06-10 11:21:45,891.nutrition_producer.INFO  [x] Sent 'Date: 8/9/2023, Carbohydrates (g): 275.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,896.nutrition_producer.INFO  [x] Sent 'Date: 8/9/2023, Sodium (mg): 4001.6000000000004' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,904.nutrition_producer.INFO  [x] Sent 'Date: 8/9/2023, Fiber: 26.8' to queue 'Fiber'.
+2024-06-10 11:21:45,909.nutrition_producer.INFO  [x] Sent 'Date: 8/10/2023, Protein (g): 138.0' to queue 'Protein (g)'.
+2024-06-10 11:21:45,913.nutrition_producer.INFO  [x] Sent 'Date: 8/10/2023, Fat (g): 49.9' to queue 'Fat (g)'.
+2024-06-10 11:21:45,923.nutrition_producer.INFO  [x] Sent 'Date: 8/10/2023, Carbohydrates (g): 210.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,927.nutrition_producer.INFO  [x] Sent 'Date: 8/10/2023, Sodium (mg): 1743.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,935.nutrition_producer.INFO  [x] Sent 'Date: 8/10/2023, Fiber: 19.0' to queue 'Fiber'.
+2024-06-10 11:21:45,940.nutrition_producer.INFO  [x] Sent 'Date: 8/11/2023, Protein (g): 155.1' to queue 'Protein (g)'.
+2024-06-10 11:21:45,945.nutrition_producer.INFO  [x] Sent 'Date: 8/11/2023, Fat (g): 44.4' to queue 'Fat (g)'.
+2024-06-10 11:21:45,954.nutrition_producer.INFO  [x] Sent 'Date: 8/11/2023, Carbohydrates (g): 275.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,961.nutrition_producer.INFO  [x] Sent 'Date: 8/11/2023, Sodium (mg): 4702.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:45,969.nutrition_producer.INFO  [x] Sent 'Date: 8/11/2023, Fiber: 26.1' to queue 'Fiber'.
+2024-06-10 11:21:45,975.nutrition_producer.INFO  [x] Sent 'Date: 8/12/2023, Protein (g): 154.4' to queue 'Protein (g)'.
+2024-06-10 11:21:45,984.nutrition_producer.INFO  [x] Sent 'Date: 8/12/2023, Fat (g): 45.7' to queue 'Fat (g)'.
+2024-06-10 11:21:45,992.nutrition_producer.INFO  [x] Sent 'Date: 8/12/2023, Carbohydrates (g): 273.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:45,998.nutrition_producer.INFO  [x] Sent 'Date: 8/12/2023, Sodium (mg): 4256.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,006.nutrition_producer.INFO  [x] Sent 'Date: 8/12/2023, Fiber: 26.0' to queue 'Fiber'.
+2024-06-10 11:21:46,012.nutrition_producer.INFO  [x] Sent 'Date: 8/13/2023, Protein (g): 155.60000000000002' to queue 'Protein (g)'.
+2024-06-10 11:21:46,023.nutrition_producer.INFO  [x] Sent 'Date: 8/13/2023, Fat (g): 49.1' to queue 'Fat (g)'.
+2024-06-10 11:21:46,029.nutrition_producer.INFO  [x] Sent 'Date: 8/13/2023, Carbohydrates (g): 203.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,039.nutrition_producer.INFO  [x] Sent 'Date: 8/13/2023, Sodium (mg): 2776.2000000000003' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,046.nutrition_producer.INFO  [x] Sent 'Date: 8/13/2023, Fiber: 27.5' to queue 'Fiber'.
+2024-06-10 11:21:46,054.nutrition_producer.INFO  [x] Sent 'Date: 8/14/2023, Protein (g): 158.79999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:46,063.nutrition_producer.INFO  [x] Sent 'Date: 8/14/2023, Fat (g): 47.599999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:46,074.nutrition_producer.INFO  [x] Sent 'Date: 8/14/2023, Carbohydrates (g): 255.20000000000002' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,079.nutrition_producer.INFO  [x] Sent 'Date: 8/14/2023, Sodium (mg): 4161.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,089.nutrition_producer.INFO  [x] Sent 'Date: 8/14/2023, Fiber: 33.9' to queue 'Fiber'.
+2024-06-10 11:21:46,094.nutrition_producer.INFO  [x] Sent 'Date: 8/15/2023, Protein (g): 146.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:46,105.nutrition_producer.INFO  [x] Sent 'Date: 8/15/2023, Fat (g): 45.99999999999999' to queue 'Fat (g)'.
+2024-06-10 11:21:46,111.nutrition_producer.INFO  [x] Sent 'Date: 8/15/2023, Carbohydrates (g): 279.0' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,120.nutrition_producer.INFO  [x] Sent 'Date: 8/15/2023, Sodium (mg): 3737.5' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,126.nutrition_producer.INFO  [x] Sent 'Date: 8/15/2023, Fiber: 33.199999999999996' to queue 'Fiber'.
+2024-06-10 11:21:46,132.nutrition_producer.INFO  [x] Sent 'Date: 8/16/2023, Protein (g): 159.3' to queue 'Protein (g)'.
+2024-06-10 11:21:46,140.nutrition_producer.INFO  [x] Sent 'Date: 8/16/2023, Fat (g): 50.7' to queue 'Fat (g)'.
+2024-06-10 11:21:46,148.nutrition_producer.INFO  [x] Sent 'Date: 8/16/2023, Carbohydrates (g): 247.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,156.nutrition_producer.INFO  [x] Sent 'Date: 8/16/2023, Sodium (mg): 2736.4' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,163.nutrition_producer.INFO  [x] Sent 'Date: 8/16/2023, Fiber: 21.0' to queue 'Fiber'.
+2024-06-10 11:21:46,170.nutrition_producer.INFO  [x] Sent 'Date: 8/17/2023, Protein (g): 157.5' to queue 'Protein (g)'.
+2024-06-10 11:21:46,175.nutrition_producer.INFO  [x] Sent 'Date: 8/17/2023, Fat (g): 45.7' to queue 'Fat (g)'.
+2024-06-10 11:21:46,196.nutrition_producer.INFO  [x] Sent 'Date: 8/17/2023, Carbohydrates (g): 241.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,205.nutrition_producer.INFO  [x] Sent 'Date: 8/17/2023, Sodium (mg): 4662.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,211.nutrition_producer.INFO  [x] Sent 'Date: 8/17/2023, Fiber: 22.0' to queue 'Fiber'.
+2024-06-10 11:21:46,219.nutrition_producer.INFO  [x] Sent 'Date: 8/18/2023, Protein (g): 141.3' to queue 'Protein (g)'.
+2024-06-10 11:21:46,225.nutrition_producer.INFO  [x] Sent 'Date: 8/18/2023, Fat (g): 99.2' to queue 'Fat (g)'.
+2024-06-10 11:21:46,229.nutrition_producer.INFO  [x] Sent 'Date: 8/18/2023, Carbohydrates (g): 302.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,240.nutrition_producer.INFO  [x] Sent 'Date: 8/18/2023, Sodium (mg): 4879.900000000001' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,245.nutrition_producer.INFO  [x] Sent 'Date: 8/18/2023, Fiber: 30.0' to queue 'Fiber'.
+2024-06-10 11:21:46,252.nutrition_producer.INFO  [x] Sent 'Date: 8/19/2023, Protein (g): 145.5' to queue 'Protein (g)'.
+2024-06-10 11:21:46,260.nutrition_producer.INFO  [x] Sent 'Date: 8/19/2023, Fat (g): 41.7' to queue 'Fat (g)'.
+2024-06-10 11:21:46,270.nutrition_producer.INFO  [x] Sent 'Date: 8/19/2023, Carbohydrates (g): 373.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,277.nutrition_producer.INFO  [x] Sent 'Date: 8/19/2023, Sodium (mg): 4732.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,288.nutrition_producer.INFO  [x] Sent 'Date: 8/19/2023, Fiber: 29.1' to queue 'Fiber'.
+2024-06-10 11:21:46,295.nutrition_producer.INFO  [x] Sent 'Date: 8/20/2023, Protein (g): 154.5' to queue 'Protein (g)'.
+2024-06-10 11:21:46,305.nutrition_producer.INFO  [x] Sent 'Date: 8/20/2023, Fat (g): 42.5' to queue 'Fat (g)'.
+2024-06-10 11:21:46,311.nutrition_producer.INFO  [x] Sent 'Date: 8/20/2023, Carbohydrates (g): 233.7' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,319.nutrition_producer.INFO  [x] Sent 'Date: 8/20/2023, Sodium (mg): 3272.6' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,324.nutrition_producer.INFO  [x] Sent 'Date: 8/20/2023, Fiber: 21.7' to queue 'Fiber'.
+2024-06-10 11:21:46,329.nutrition_producer.INFO  [x] Sent 'Date: 8/21/2023, Protein (g): 155.3' to queue 'Protein (g)'.
+2024-06-10 11:21:46,338.nutrition_producer.INFO  [x] Sent 'Date: 8/21/2023, Fat (g): 39.7' to queue 'Fat (g)'.
+2024-06-10 11:21:46,343.nutrition_producer.INFO  [x] Sent 'Date: 8/21/2023, Carbohydrates (g): 235.40000000000003' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,352.nutrition_producer.INFO  [x] Sent 'Date: 8/21/2023, Sodium (mg): 4106.9' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,358.nutrition_producer.INFO  [x] Sent 'Date: 8/21/2023, Fiber: 27.1' to queue 'Fiber'.
+2024-06-10 11:21:46,363.nutrition_producer.INFO  [x] Sent 'Date: 8/22/2023, Protein (g): 157.7' to queue 'Protein (g)'.
+2024-06-10 11:21:46,371.nutrition_producer.INFO  [x] Sent 'Date: 8/22/2023, Fat (g): 63.5' to queue 'Fat (g)'.
+2024-06-10 11:21:46,376.nutrition_producer.INFO  [x] Sent 'Date: 8/22/2023, Carbohydrates (g): 303.79999999999995' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,384.nutrition_producer.INFO  [x] Sent 'Date: 8/22/2023, Sodium (mg): 4441.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,392.nutrition_producer.INFO  [x] Sent 'Date: 8/22/2023, Fiber: 27.400000000000002' to queue 'Fiber'.
+2024-06-10 11:21:46,401.nutrition_producer.INFO  [x] Sent 'Date: 8/23/2023, Protein (g): 155.29999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:46,413.nutrition_producer.INFO  [x] Sent 'Date: 8/23/2023, Fat (g): 60.199999999999996' to queue 'Fat (g)'.
+2024-06-10 11:21:46,428.nutrition_producer.INFO  [x] Sent 'Date: 8/23/2023, Carbohydrates (g): 260.1' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,439.nutrition_producer.INFO  [x] Sent 'Date: 8/23/2023, Sodium (mg): 4669.099999999999' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,447.nutrition_producer.INFO  [x] Sent 'Date: 8/23/2023, Fiber: 25.7' to queue 'Fiber'.
+2024-06-10 11:21:46,456.nutrition_producer.INFO  [x] Sent 'Date: 8/24/2023, Protein (g): 160.8' to queue 'Protein (g)'.
+2024-06-10 11:21:46,474.nutrition_producer.INFO  [x] Sent 'Date: 8/24/2023, Fat (g): 59.9' to queue 'Fat (g)'.
+2024-06-10 11:21:46,511.nutrition_producer.INFO  [x] Sent 'Date: 8/24/2023, Carbohydrates (g): 233.39999999999998' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,521.nutrition_producer.INFO  [x] Sent 'Date: 8/24/2023, Sodium (mg): 2499.2999999999997' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,527.nutrition_producer.INFO  [x] Sent 'Date: 8/24/2023, Fiber: 17.200000000000003' to queue 'Fiber'.
+2024-06-10 11:21:46,556.nutrition_producer.INFO  [x] Sent 'Date: 8/25/2023, Protein (g): 138.5' to queue 'Protein (g)'.
+2024-06-10 11:21:46,567.nutrition_producer.INFO  [x] Sent 'Date: 8/25/2023, Fat (g): 46.099999999999994' to queue 'Fat (g)'.
+2024-06-10 11:21:46,577.nutrition_producer.INFO  [x] Sent 'Date: 8/25/2023, Carbohydrates (g): 258.9' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,599.nutrition_producer.INFO  [x] Sent 'Date: 8/25/2023, Sodium (mg): 4464.7' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,627.nutrition_producer.INFO  [x] Sent 'Date: 8/25/2023, Fiber: 18.3' to queue 'Fiber'.
+2024-06-10 11:21:46,660.nutrition_producer.INFO  [x] Sent 'Date: 8/26/2023, Protein (g): 147.0' to queue 'Protein (g)'.
+2024-06-10 11:21:46,691.nutrition_producer.INFO  [x] Sent 'Date: 8/26/2023, Fat (g): 38.5' to queue 'Fat (g)'.
+2024-06-10 11:21:46,698.nutrition_producer.INFO  [x] Sent 'Date: 8/26/2023, Carbohydrates (g): 375.3' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,708.nutrition_producer.INFO  [x] Sent 'Date: 8/26/2023, Sodium (mg): 3747.7000000000003' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,714.nutrition_producer.INFO  [x] Sent 'Date: 8/26/2023, Fiber: 37.1' to queue 'Fiber'.
+2024-06-10 11:21:46,722.nutrition_producer.INFO  [x] Sent 'Date: 8/27/2023, Protein (g): 140.7' to queue 'Protein (g)'.
+2024-06-10 11:21:46,729.nutrition_producer.INFO  [x] Sent 'Date: 8/27/2023, Fat (g): 54.6' to queue 'Fat (g)'.
+2024-06-10 11:21:46,737.nutrition_producer.INFO  [x] Sent 'Date: 8/27/2023, Carbohydrates (g): 343.4' to queue 'Carbohydrates (g)'.
+2024-06-10 11:21:46,742.nutrition_producer.INFO  [x] Sent 'Date: 8/27/2023, Sodium (mg): 4161.8' to queue 'Sodium (mg)'.
+2024-06-10 11:21:46,748.nutrition_producer.INFO  [x] Sent 'Date: 8/27/2023, Fiber: 26.7' to queue 'Fiber'.
+2024-06-10 11:21:46,757.nutrition_producer.INFO  [x] Sent 'Date: 8/28/2023, Protein (g): 154.39999999999998' to queue 'Protein (g)'.
+2024-06-10 11:21:46,762.nutrition_producer.INFO  [x] Sent 'Date: 8/28/2023, Fat (g): 45.3' to queue 'Fat (g)'.
+2024-06-10 11:21:46,770.nutrition_producer.INFO  [x] Sent 'Date: 8/28/2023, Carbohydrates (g): 237.09999999999997' to queue 'Carbohydrates (g)'.
