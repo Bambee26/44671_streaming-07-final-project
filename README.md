@@ -61,20 +61,6 @@ Requirements
 5. Download data file from myfitnesspal.com for last 18 months
 6. Add the csv data file to your repo. 
 
-
-## Create a Python Virtual Environment
-
-We will create a local Python virtual environment to isolate our project's third-party dependencies from other projects.
-
-1. Open a terminal window in VS Code.
-2. Use the built-in Python utility venv to create a new virtual environment named `.venv` in the current directory.
-
-python -m venv .venv
-
-In the same VS Code terminal window, activate the virtual environment.
-
-- On Windows, run: `.venv\Scripts\activate`
-
 ## Create a Producer
 Implement producer to read data from nutrition summary file. 
 
