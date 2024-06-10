@@ -1,21 +1,10 @@
-"""
-    This program sends a message to a queue on the RabbitMQ server with aggregated nutritional data.
-    Author: Bambee Garfield
-    Date: June 10th, 2024
-"""
-
 import pika
-import sys
 import csv
 from collections import defaultdict
-import time
-import os
 
 # Configure Logging
 from util_logger import setup_logger
 logger, logname = setup_logger(__file__)
-
-RABBITMQ_HOST = "localhost"
 
 def connect_rabbitmq(host):
     """Connect to RabbitMQ and return connection and channel."""
@@ -25,71 +14,73 @@ def connect_rabbitmq(host):
         return connection, channel
     except Exception as e:
         logger.error(f"Error: Connection to RabbitMQ server failed: {e}")
-        sys.exit(1)
+        raise
 
-def create_and_declare_queues(channel, queues):
-    """Delete existing queues and declare new ones."""
-    for queue_name in queues:
-        channel.queue_delete(queue=queue_name)
-        channel.queue_declare(queue=queue_name, durable=True)
-        logger.info(f"Queue '{queue_name}' declared.")
+def create_and_declare_queue(channel, queue_name):
+    """Declare a queue."""
+    channel.queue_declare(queue=queue_name, durable=True)
+    logger.info(f"Queue '{queue_name}' declared.")
+
+def send_message(channel, queue_name, message):
+    """Send a message to the RabbitMQ queue."""
+    try:
+        channel.basic_publish(
+            exchange='', 
+            routing_key=queue_name, 
+            body=message,
+            properties=pika.BasicProperties(delivery_mode=pika.spec.PERSISTENT_DELIVERY_MODE)
+        )
+        logger.info(f" [x] Sent '{message}' to queue '{queue_name}'.")
+    except Exception as e:
+        logger.error(f"Error sending message to queue '{queue_name}': {e}")
+        raise
 
 def aggregate_nutrition_data(file_path):
     """Aggregate nutrition data by date."""
-    columns_to_aggregate = ["Protein (g)", "Fat (g)", "Carbohydrates (g)", "Sodium (mg)", "Fiber"]
-    aggregated_data = defaultdict(lambda: {col: 0.0 for col in columns_to_aggregate})
+    aggregated_data = defaultdict(lambda: defaultdict(float))
 
     with open(file_path, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             date = row['Date']
-            for col in columns_to_aggregate:
-                try:
-                    aggregated_data[date][col] += float(row[col])
-                except ValueError:
-                    continue  # Skip rows with invalid numeric values
+            aggregated_data[date]['Protein'] += float(row['Protein (g)'])
+            aggregated_data[date]['Carbohydrates'] += float(row['Carbohydrates (g)'])
+            aggregated_data[date]['Fat'] += float(row['Fat (g)'])
+            aggregated_data[date]['Sodium'] += float(row['Sodium (mg)'])
+            # Adjust for the column name discrepancy
+            aggregated_data[date]['Fiber'] += float(row['Fiber'])
+            # Consider other nutrients if needed
 
     return aggregated_data
 
-def send_aggregated_data_to_queues(host, aggregated_data, queues):
-    """Send aggregated data to RabbitMQ queues."""
-    for date, totals in aggregated_data.items():
-        for queue_name in queues:
-            if queue_name in totals:
-                message = f"Date: {date}, {queue_name}: {totals[queue_name]}"
-                send_message(host, queue_name, message)
-            else:
-                logger.warning(f"Queue name '{queue_name}' not found in aggregated data for date {date}")
-
-def send_message(host: str, queue_name: str, message: str):
-    """Send a message to the RabbitMQ queue."""
-    connection, channel = connect_rabbitmq(host)
+def main(host: str = "localhost", input_file: str = "nutrition-summary.csv", queue_name: str = "nutrition_data"):
+    """Main function to read nutrition data from file and send to RabbitMQ."""
     try:
-        channel.basic_publish(
-            exchange='', 
-            routing_key=queue_name, 
-            body=message.encode(), 
-            properties=pika.BasicProperties(delivery_mode=pika.spec.PERSISTENT_DELIVERY_MODE)
-        )
-        logger.info(f" [x] Sent '{message}' to queue '{queue_name}'.")
-    except Exception as e:
-        logger.error(f"Error sending message to queue '{queue_name}'.")
-        logger.error(f"The error says: {e}")
-    finally:
-        connection.close()
+        # Connect to RabbitMQ
+        connection, channel = connect_rabbitmq(host)
+        create_and_declare_queue(channel, queue_name)
 
-if __name__ == "__main__":  
-    file_name = 'Nutrition-Summary.csv'  # Adjust this to the correct relative path
-    host = "localhost"
-    queues = ["Protein (g)", "Fat (g)", "Carbohydrates (g)", "Sodium (mg)", "Fiber"]
-    
-    if not os.path.isfile(file_name):
-        logger.error(f"File not found: {file_name}")
-        sys.exit(1)
-    
-    connection, channel = connect_rabbitmq(host)
-    create_and_declare_queues(channel, queues)
-    connection.close()  # Close the initial connection after declaring queues
-    
-    aggregated_data = aggregate_nutrition_data(file_name)
-    send_aggregated_data_to_queues(host, aggregated_data, queues)
+        # Aggregate nutrition data
+        aggregated_data = aggregate_nutrition_data(input_file)
+
+        # Send messages to RabbitMQ
+        for date, data in aggregated_data.items():
+            # Truncate numbers to one decimal point
+            protein = round(data['Protein'], 1)
+            carbohydrates = round(data['Carbohydrates'], 1)
+            fat = round(data['Fat'], 1)
+            sodium = round(data['Sodium'], 1)
+            fiber = round(data['Fiber'], 1)
+
+            # Construct message
+            message = f"Date: {date}, Protein: {protein}, Carbohydrates: {carbohydrates}, Fat: {fat}, Sodium: {sodium}, Fiber: {fiber}"
+            send_message(channel, queue_name, message)
+
+        # Close connection
+        connection.close()
+    except Exception as e:
+        logger.error("Error in the producer:")
+        logger.error(str(e))
+
+if __name__ == "__main__":
+    main()
