@@ -76,10 +76,11 @@ In the same VS Code terminal window, activate the virtual environment.
 - On Windows, run: `.venv\Scripts\activate`
 
 ## Create a Producer
+Implement producer to read data from nutrition summary file. 
 
 ## Creat a Consumer 
 
-1. Implement your  consumer. 
+1. Implement your consumer. 
 2. Use the logic, approach, and structure from all course modules
 3. These provide a current and solid foundation for streaming analytics - modifying them to serve your purpose IS part of the assignment.
 4. Do not start from scratch - do not search for code - do not use a notebook.
