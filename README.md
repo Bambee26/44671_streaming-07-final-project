@@ -1,8 +1,7 @@
 ## Bambee Garfield
 ## CSIS 44671 - Module 7
 
-
-# streaming-07-final
+## Final Project
 
 Project Requirements:
 Requirements - Custom Streaming Project
@@ -17,7 +16,7 @@ Be sure to address these in your project:
 7. Did you use time windows?
 
 My Project:
-Data was downloaded from my personal myfitnesspal.com log. The data is clunky and hard to use in their format. Each meal per day has it's own line with numerous columns of macro and micro nutrients. 
+Data was downloaded from my personal myfitnesspal.com log. The data is clunky and hard to use in their format. Each meal per day has its own line with numerous columns of macro and micro nutrients. 
 
 The first thing the code does is to aggregate the data for each day and then only look at the columns I care about:
     -Protein (g)
@@ -64,7 +63,7 @@ Requirements
 ## Create a Producer
 Implement producer to read data from nutrition summary file. 
 
-## Creat a Consumer 
+## Create a Consumer 
 
 1. Implement your consumer. 
 2. Use the logic, approach, and structure from all course modules
